@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function find_length to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.\nfind_length(\"11000010001\", 11) == 6",
+  "Product Goals": [
+    "Create an efficient algorithm to calculate the maximum difference",
+    "Ensure the function handles edge cases correctly",
+    "Provide clear documentation for the function"
+  ],
+  "User Stories": [
+    "As a developer, I want to quickly find the maximum difference in a binary string to optimize my code.",
+    "As a user, I want to understand how the function works through clear documentation.",
+    "As a tester, I want to ensure the function handles various binary string inputs correctly."
+  ],
+  "Competitive Analysis": [
+    "Binary String Analyzer A: Basic functionality but lacks performance optimization.",
+    "Binary String Analyzer B: Fast execution but limited to fixed-length strings.",
+    "Binary String Analyzer C: Comprehensive features but overly complex for simple tasks.",
+    "Binary String Analyzer D: User-friendly interface but lacks detailed output.",
+    "Binary String Analyzer E: Efficient but does not handle edge cases well."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Performance and Usability of Binary String Analyzers\"\n    x-axis \"Low Performance\" --> \"High Performance\"\n    y-axis \"Low Usability\" --> \"High Usability\"\n    quadrant-1 \"Expand features\"\n    quadrant-2 \"Improve performance\"\n    quadrant-3 \"Enhance usability\"\n    quadrant-4 \"Maintain balance\"\n    \"Analyzer A\": [0.3, 0.4]\n    \"Analyzer B\": [0.7, 0.5]\n    \"Analyzer C\": [0.5, 0.8]\n    \"Analyzer D\": [0.4, 0.6]\n    \"Analyzer E\": [0.6, 0.3]",
+  "Requirement Analysis": "The function needs to efficiently calculate the maximum difference between the counts of 0s and 1s in any substring of a given binary string. It should handle various lengths of strings and edge cases such as empty strings or strings with only one type of character.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the find_length function to calculate the maximum difference."
+    ],
+    [
+      "P1",
+      "Ensure the function is optimized for performance."
+    ],
+    [
+      "P1",
+      "Add unit tests to validate the function's correctness."
+    ],
+    [
+      "P2",
+      "Document the function with examples and edge cases."
+    ],
+    [
+      "P2",
+      "Consider user input validation for the binary string."
+    ]
+  ],
+  "UI Design draft": "The UI will consist of a simple input field for the binary string and a button to execute the function. The output will display the maximum difference clearly, with a clean and minimalistic design.",
+  "Anything UNCLEAR": "Are there specific edge cases or performance benchmarks that need to be considered for the function?"
+}

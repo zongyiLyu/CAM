@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will create a simple function named 'similar_elements' that takes two lists or tuples as input and returns a tuple containing the elements that are present in both inputs. The function will utilize Python's built-in set operations for efficient membership testing while maintaining the order of elements from the first input.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def similar_elements(list1: tuple, list2: tuple) -> tuple:\n    # Input: list1 (tuple) - first list of elements\n    # Input: list2 (tuple) - second list of elements\n    # Output: tuple - elements that are present in both lists, maintaining the order from list1",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: Call similar_elements((3, 4, 5, 6), (5, 7, 4, 10))\n    Function-->>User: Return (4, 5)",
+  "Anything UNCLEAR": "No unclear aspects noted; the requirements are clear and straightforward."
+}

@@ -1,0 +1,38 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def order_by_points(nums):\n    \"\"\" Write a function which sorts the given list of integers\n    in ascending order according to the sum of their digits.\n    Note: if there are several items with similar sum of their digits,\n    order them based on their index in original list.\n\n    For example:\n    >>> order_by_points([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n    >>> order_by_points([]) == []\n    \"\"\"\n",
+  "Product Goals": [
+    "Create a function that accurately sorts integers based on digit sums",
+    "Ensure the function handles edge cases like empty lists",
+    "Maintain the original order for items with the same digit sum"
+  ],
+  "User Stories": [
+    "As a developer, I want to implement a sorting function that meets specific criteria",
+    "As a user, I want to see the sorted list based on the sum of digits",
+    "As a user, I want the function to handle negative numbers correctly"
+  ],
+  "Competitive Analysis": [
+    "Python's built-in sorted function: Fast but lacks custom sorting by digit sum",
+    "Custom sorting libraries: May provide similar functionality but require additional setup",
+    "Other sorting algorithms: Can sort but may not consider digit sums specifically"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Sorting Function Competitiveness\"\n    x-axis \"Low Performance\" --> \"High Performance\"\n    y-axis \"Low Usability\" --> \"High Usability\"\n    quadrant-1 \"Needs Improvement\"\n    quadrant-2 \"Good Potential\"\n    quadrant-3 \"High Performance\"\n    quadrant-4 \"Market Leader\"\n    \"Built-in Sort\": [0.8, 0.9]\n    \"Custom Sort Lib\": [0.6, 0.5]\n    \"Other Algorithms\": [0.4, 0.3]\n    \"Our Function\": [0.7, 0.8]",
+  "Requirement Analysis": "The function must sort integers based on the sum of their digits, ensuring that if two integers have the same digit sum, they retain their original order. The function should also handle edge cases such as empty lists and negative integers.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the sorting logic based on digit sums"
+    ],
+    [
+      "P1",
+      "Handle edge cases like empty lists and negative numbers"
+    ],
+    [
+      "P2",
+      "Ensure stability in sorting for items with the same digit sum"
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for users to understand its usage.",
+  "Anything UNCLEAR": "Clarification on whether the function should handle non-integer inputs or if it should strictly accept integers."
+}

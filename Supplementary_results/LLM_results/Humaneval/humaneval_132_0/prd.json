@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def is_nested(string):\n    '''\n    Create a function that takes a string as input which contains only square brackets.\n    The function should return True if and only if there is a valid subsequence of brackets \n    where at least one bracket in the subsequence is nested.\n\n    is_nested('[[]]') ➞ True\n    is_nested('[]]]]]]][[[[[]') ➞ False\n    is_nested('[][]') ➞ False\n    is_nested('[]') ➞ False\n    is_nested('[[][]]') ➞ True\n    is_nested('[[]][[') ➞ True\n    '''\n",
+  "Product Goals": [
+    "Ensure the function accurately identifies nested brackets",
+    "Optimize performance for long strings",
+    "Provide clear documentation and examples"
+  ],
+  "User Stories": [
+    "As a developer, I want to validate nested brackets in user input",
+    "As a user, I want to receive immediate feedback on my input",
+    "As a tester, I want to ensure edge cases are handled correctly"
+  ],
+  "Competitive Analysis": [
+    "Bracket Validator A: Simple implementation, lacks edge case handling",
+    "Bracket Checker B: Good performance, but limited to parentheses",
+    "Nested Bracket Validator C: Comprehensive, but complex to use",
+    "Simple Bracket Validator D: Fast, but does not check for nesting",
+    "Advanced Bracket Checker E: Handles multiple types of brackets, but slow"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of bracket validation tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Validator A\": [0.2, 0.4]\n    \"Validator B\": [0.5, 0.3]\n    \"Validator C\": [0.6, 0.7]\n    \"Validator D\": [0.4, 0.5]\n    \"Validator E\": [0.7, 0.6]\n    \"Our Target Product\": [0.5, 0.5]",
+  "Requirement Analysis": "The function must accurately determine if there is at least one nested bracket in the input string. It should handle various edge cases, such as strings with only closing brackets or no brackets at all.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the is_nested function to check for nested brackets."
+    ],
+    [
+      "P1",
+      "Create unit tests for various scenarios including edge cases."
+    ],
+    [
+      "P2",
+      "Optimize the function for performance with long strings."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for developers.",
+  "Anything UNCLEAR": "Are there any specific edge cases or performance benchmarks that need to be considered for the function?"
+}

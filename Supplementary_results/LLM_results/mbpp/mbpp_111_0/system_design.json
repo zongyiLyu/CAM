@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement the function `larg_nnum` using Python's built-in `heapq` module, which provides an efficient way to retrieve the n largest unique elements from a list. This approach is optimal for handling large datasets and ensures that we can manage duplicate values effectively. The function will also include error handling for cases where n exceeds the number of unique items in the list.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def larg_nnum(lst: list[int], n: int) -> list[int]:\n    \"\"\"\n    Returns the n largest unique items from the input list.\n\n    Parameters:\n    lst (list[int]): A list of integers from which to find the largest items.\n    n (int): The number of largest unique items to return.\n\n    Returns:\n    list[int]: A list containing the n largest unique integers from the input list.\n    If n is greater than the number of unique items, returns all unique items sorted in descending order.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: larg_nnum([10, 20, 50, 70, 90, 20, 50, 40, 60, 80, 100], 2)\n    Function->>Function: Remove duplicates from the list\n    Function->>Function: Sort the unique list in descending order\n    Function->>Function: Retrieve the first n elements\n    Function-->>User: Return [100, 90]",
+  "Anything UNCLEAR": "Clarification needed on whether the function should return duplicates if they are among the largest n items."
+}

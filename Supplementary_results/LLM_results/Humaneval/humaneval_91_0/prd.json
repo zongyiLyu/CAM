@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def is_bored(S):\n    \"\"\"\n    You'll be given a string of words, and your task is to count the number\n    of boredoms. A boredom is a sentence that starts with the word \"I\".\n    Sentences are delimited by '.', '?' or '!'.\n   \n    For example:\n    >>> is_bored(\"Hello world\")\n    0\n    >>> is_bored(\"The sky is blue. The sun is shining. I love this weather\")\n    1\n    \"\"\"\n",
+  "Product Goals": [
+    "Accurately count sentences starting with 'I'",
+    "Handle various sentence delimiters",
+    "Provide clear and concise output"
+  ],
+  "User Stories": [
+    "As a user, I want to input a string and receive the count of sentences starting with 'I'.",
+    "As a user, I want the function to handle different punctuation marks as sentence delimiters.",
+    "As a user, I want to see examples of how the function works with different inputs."
+  ],
+  "Competitive Analysis": [
+    "TextAnalyzer: Basic sentence analysis but lacks specific focus on 'I'.",
+    "SentenceCounter: Counts sentences but does not differentiate based on starting words.",
+    "BoredomDetector: Focuses on boredom detection but has a complex interface.",
+    "SimpleCounter: Easy to use but does not handle punctuation well.",
+    "WordAnalyzer: Provides detailed analysis but is not user-friendly."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of campaigns\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"TextAnalyzer\": [0.4, 0.5]\n    \"SentenceCounter\": [0.5, 0.3]\n    \"BoredomDetector\": [0.6, 0.7]\n    \"SimpleCounter\": [0.3, 0.4]\n    \"WordAnalyzer\": [0.5, 0.6]",
+  "Requirement Analysis": "The function needs to accurately identify and count sentences that start with 'I'. It should be robust enough to handle various delimiters and return a simple integer count. Edge cases, such as empty strings or strings without any sentences starting with 'I', should also be considered.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the core logic to count sentences starting with 'I'."
+    ],
+    [
+      "P1",
+      "Ensure the function handles different sentence delimiters."
+    ],
+    [
+      "P1",
+      "Test the function with various input scenarios."
+    ],
+    [
+      "P2",
+      "Document the function with examples."
+    ],
+    [
+      "P2",
+      "Optimize for performance with large strings."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for user guidance.",
+  "Anything UNCLEAR": "Clarification on whether the function should ignore case sensitivity when checking for 'I' at the start of sentences."
+}

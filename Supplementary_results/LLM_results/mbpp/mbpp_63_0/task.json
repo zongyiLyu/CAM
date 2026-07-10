@@ -1,0 +1,20 @@
+{
+  "Required packages": [
+    "from typing import List"
+  ],
+  "Required Other language third-party packages": [
+    "No third-party dependencies required"
+  ],
+  "Logic Analysis": [
+    [
+      "main.py",
+      "Contains one function common_in_nested_lists that takes a list of lists as input and returns a sorted list of unique common elements."
+    ]
+  ],
+  "File list": [
+    "main.py"
+  ],
+  "Full API spec": "",
+  "Shared Knowledge": "",
+  "Anything UNCLEAR": "No clarifications needed; the requirements are clear."
+}

@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function lps to find the length of the longest palindromic subsequence in the given string.\nlps(\"TENS FOR TENS\") == 5",
+  "Product Goals": [
+    "Create a reliable algorithm for finding palindromic subsequences",
+    "Ensure the function handles various input cases effectively",
+    "Provide clear documentation for users to understand the function"
+  ],
+  "User Stories": [
+    "As a user, I want to input a string and receive the length of the longest palindromic subsequence",
+    "As a user, I want the function to handle both uppercase and lowercase letters",
+    "As a user, I want to see examples of how to use the function in the documentation"
+  ],
+  "Competitive Analysis": [
+    "Palindrome Finder A: Basic functionality but lacks optimization",
+    "Palindrome Checker B: Fast but limited to single words",
+    "Longest Palindrome C: Good performance but not user-friendly",
+    "Subsequence Analyzer D: Comprehensive but overly complex",
+    "String Manipulator E: Offers many features but lacks focus on palindromes"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of palindrome finding tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Tool A\": [0.2, 0.4]\n    \"Tool B\": [0.5, 0.3]\n    \"Tool C\": [0.6, 0.7]\n    \"Tool D\": [0.8, 0.5]\n    \"Tool E\": [0.4, 0.6]\n    \"Our Target Tool\": [0.7, 0.6]",
+  "Requirement Analysis": "The function needs to efficiently compute the longest palindromic subsequence from a given string. It should consider various edge cases, such as empty strings and strings with special characters.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the lps function to calculate the longest palindromic subsequence."
+    ],
+    [
+      "P1",
+      "Ensure the function is optimized for performance."
+    ],
+    [
+      "P2",
+      "Provide unit tests to validate the function's correctness."
+    ]
+  ],
+  "UI Design draft": "The UI will consist of a simple input field for the string and a button to execute the function. The result will be displayed below the input field in a clear and concise manner.",
+  "Anything UNCLEAR": "Are there any specific performance benchmarks or constraints that the function should meet?"
+}

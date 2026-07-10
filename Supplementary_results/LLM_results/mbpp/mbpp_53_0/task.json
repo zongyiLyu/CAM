@@ -1,0 +1,20 @@
+{
+  "Required packages": [
+    "No required packages"
+  ],
+  "Required Other language third-party packages": [
+    "No third-party dependencies required"
+  ],
+  "Logic Analysis": [
+    [
+      "main.py",
+      "Contains one function named 'decimal_to_binary' that takes an integer as input and returns its binary representation as a string. It handles edge cases for zero and negative numbers."
+    ]
+  ],
+  "File list": [
+    "main.py"
+  ],
+  "Full API spec": "",
+  "Shared Knowledge": "",
+  "Anything UNCLEAR": "No specific edge cases or constraints beyond the standard conversion have been mentioned."
+}

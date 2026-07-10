@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function get_total_number_of_sequences that takes in positive integers m and n and finds the number of possible sequences of length n, such that each element is a positive integer and is greater than or equal to twice the previous element but less than or equal to m.\nget_total_number_of_sequences(10, 4) == 4",
+  "Product Goals": [
+    "Create a function that accurately calculates the number of sequences",
+    "Ensure the function handles edge cases effectively",
+    "Optimize the function for performance with larger inputs"
+  ],
+  "User Stories": [
+    "As a developer, I want to implement the function to meet the specified requirements",
+    "As a user, I want to see the correct number of sequences for given inputs",
+    "As a user, I want the function to run efficiently even for larger values of m and n"
+  ],
+  "Competitive Analysis": [
+    "Sequence Generator A: Basic functionality but lacks optimization",
+    "Sequence Generator B: Offers a variety of sequence types but is slow",
+    "Sequence Generator C: Fast but does not handle edge cases well",
+    "Sequence Generator D: Comprehensive but overly complex for simple tasks",
+    "Sequence Generator E: User-friendly interface but limited in functionality"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Performance and Usability of Sequence Generators\"\n    x-axis \"Low Performance\" --> \"High Performance\"\n    y-axis \"Low Usability\" --> \"High Usability\"\n    quadrant-1 \"Expand features\"\n    quadrant-2 \"Improve performance\"\n    quadrant-3 \"Re-evaluate usability\"\n    quadrant-4 \"Maintain balance\"\n    \"Generator A\": [0.2, 0.8]\n    \"Generator B\": [0.5, 0.5]\n    \"Generator C\": [0.8, 0.3]\n    \"Generator D\": [0.4, 0.6]\n    \"Generator E\": [0.6, 0.7]",
+  "Requirement Analysis": "The function needs to calculate the number of valid sequences based on the constraints provided. It should consider the relationship between consecutive elements and ensure that the sequences adhere to the specified limits.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the core logic for sequence generation"
+    ],
+    [
+      "P1",
+      "Add input validation for m and n"
+    ],
+    [
+      "P2",
+      "Optimize the function for performance"
+    ]
+  ],
+  "UI Design draft": "The function will be a backend implementation, so no UI elements are required. However, clear documentation and examples will be provided for users to understand how to use the function.",
+  "Anything UNCLEAR": "The requirements are clear, but it would be helpful to know if there are any specific performance benchmarks or constraints for larger values of m and n."
+}

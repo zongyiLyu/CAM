@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function sum_div to return the sum of all divisors of a number.\nsum_div(8)==7",
+  "Product Goals": [
+    "Create a reliable function for calculating divisors",
+    "Ensure the function handles edge cases correctly",
+    "Optimize performance for larger numbers"
+  ],
+  "User Stories": [
+    "As a user, I want to calculate the sum of divisors for any integer quickly",
+    "As a user, I want to see accurate results for both small and large numbers",
+    "As a user, I want the function to handle negative numbers gracefully"
+  ],
+  "Competitive Analysis": [
+    "MathUtils: Provides basic math functions but lacks divisor sum",
+    "NumPy: Offers extensive mathematical functions but is complex for simple tasks",
+    "SymPy: Good for symbolic mathematics but overkill for simple divisor sums",
+    "Math.js: JavaScript library with divisor functions but not in Python",
+    "DivisorSum: A dedicated tool for divisor calculations but limited to web use"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of divisor calculation tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"MathUtils\": [0.4, 0.5]\n    \"NumPy\": [0.6, 0.4]\n    \"SymPy\": [0.5, 0.3]\n    \"Math.js\": [0.3, 0.6]\n    \"DivisorSum\": [0.7, 0.5]",
+  "Requirement Analysis": "The function should efficiently calculate the sum of all divisors of a given number. It needs to handle edge cases such as negative numbers and zero. Performance optimization is crucial for larger integers.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the sum_div function to calculate the sum of divisors."
+    ],
+    [
+      "P1",
+      "Ensure the function handles edge cases like negative numbers."
+    ],
+    [
+      "P1",
+      "Optimize the function for performance with larger integers."
+    ]
+  ],
+  "UI Design draft": "The function will be a simple Python function without a UI, but documentation should be clear and concise for user understanding.",
+  "Anything UNCLEAR": "Are there specific performance benchmarks or limits for the input numbers that should be considered?"
+}

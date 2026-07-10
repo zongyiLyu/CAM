@@ -1,0 +1,20 @@
+{
+  "Required packages": [
+    "math"
+  ],
+  "Required Other language third-party packages": [
+    "No third-party dependencies required"
+  ],
+  "Logic Analysis": [
+    [
+      "main.py",
+      "Contains the angle_complex function that calculates the angle of a complex number using the atan2 function from the math library."
+    ]
+  ],
+  "File list": [
+    "main.py"
+  ],
+  "Full API spec": "",
+  "Shared Knowledge": "",
+  "Anything UNCLEAR": "Clarification needed on how to handle the case when both real and imaginary parts are zero."
+}

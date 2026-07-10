@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function is_undulating to check whether the given number is undulating or not.\nis_undulating(\"1212121\") == True",
+  "Product Goals": [
+    "Create a reliable function to check undulating numbers",
+    "Ensure the function handles various input types gracefully",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to check if a number is undulating so that I can understand its properties.",
+    "As a developer, I want to integrate the is_undulating function into my application easily.",
+    "As a user, I want to receive clear error messages when I input invalid data."
+  ],
+  "Competitive Analysis": [
+    "NumCheck: Offers basic number properties but lacks undulating check.",
+    "MathUtils: Comprehensive math functions but not user-friendly.",
+    "NumberAnalyzer: Provides various number checks but is overly complex.",
+    "DigitPatterns: Focuses on digit patterns but lacks undulating functionality.",
+    "PatternFinder: Good for pattern recognition but not optimized for performance."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of number checking tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"NumCheck\": [0.3, 0.4]\n    \"MathUtils\": [0.5, 0.5]\n    \"NumberAnalyzer\": [0.6, 0.3]\n    \"DigitPatterns\": [0.4, 0.6]\n    \"PatternFinder\": [0.7, 0.7]\n    \"Our Target Product\": [0.5, 0.6]",
+  "Requirement Analysis": "The function should take a string representation of a number and determine if it alternates between two digits. It should return True if the number is undulating and False otherwise. The function must handle edge cases such as empty strings and non-numeric inputs.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the is_undulating function to check for undulating numbers."
+    ],
+    [
+      "P1",
+      "Handle invalid inputs gracefully."
+    ],
+    [
+      "P2",
+      "Provide unit tests for the function."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for users to understand how to use the function.",
+  "Anything UNCLEAR": "Clarification needed on whether the function should handle negative numbers or decimal points."
+}

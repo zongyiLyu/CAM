@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function newman_prime to find the nth newman–shanks–williams prime number.\nnewman_prime(3) == 7",
+  "Product Goals": [
+    "Create a reliable function to compute Newman primes",
+    "Ensure the function is efficient for larger values of n",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to find the nth Newman prime number easily",
+    "As a user, I want the function to handle large inputs without crashing",
+    "As a user, I want to understand how the function works through documentation"
+  ],
+  "Competitive Analysis": [
+    "Prime Number Generator A: Basic functionality but lacks efficiency",
+    "Prime Finder B: Fast but limited to first 100 primes",
+    "Advanced Prime Calculator C: Comprehensive but overly complex",
+    "Simple Prime Finder D: User-friendly but not optimized for large n",
+    "Efficient Prime Generator E: Good performance but lacks user guidance"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of prime number tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Tool A\": [0.3, 0.6]\n    \"Tool B\": [0.45, 0.23]\n    \"Tool C\": [0.57, 0.69]\n    \"Tool D\": [0.78, 0.34]\n    \"Tool E\": [0.40, 0.34]\n    \"Our Target Product\": [0.5, 0.6]",
+  "Requirement Analysis": "The function needs to efficiently compute the nth Newman–Shanks–Williams prime number, which is a specific type of prime number. The implementation should consider performance for larger values of n and provide clear output.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the newman_prime function to calculate the nth prime."
+    ],
+    [
+      "P1",
+      "Optimize the function for performance with large inputs."
+    ],
+    [
+      "P2",
+      "Document the function with examples and usage instructions."
+    ]
+  ],
+  "UI Design draft": "The function will be a simple Python function with no UI elements, but documentation will be provided in a clear and structured format.",
+  "Anything UNCLEAR": "Clarification on the expected range of n values would be helpful to optimize the function accordingly."
+}

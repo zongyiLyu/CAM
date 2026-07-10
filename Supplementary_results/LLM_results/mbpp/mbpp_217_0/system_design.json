@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a simple function named 'and_tuples' that computes the elementwise differences between two tuples. The function will handle tuples of different lengths by only returning differences for the overlapping indices. We will use built-in Python functionalities to achieve this without the need for any external libraries, as the requirements are straightforward and do not necessitate complex operations.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def and_tuples(tuple1: tuple, tuple2: tuple) -> tuple:\n    \"\"\"\n    Computes the elementwise differences between two tuples.\n\n    Parameters:\n    tuple1 (tuple): The first tuple containing numeric elements.\n    tuple2 (tuple): The second tuple containing numeric elements.\n\n    Returns:\n    tuple: A tuple containing the elementwise differences. If the tuples are of different lengths,\n           only the overlapping indices are considered.\n    \"\"\"\n    # Implementation will go here",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: Call and_tuples((10, 4, 6, 9), (5, 2, 3, 3))\n    Function-->>User: Return (5, 2, 3, 6)\n    User->>Function: Call and_tuples((10, 4), (5, 2, 3, 3))\n    Function-->>User: Return (5, 2)\n    User->>Function: Call and_tuples((1, 2, 3), (4, 5))\n    Function-->>User: Return (-3, -3)",
+  "Anything UNCLEAR": "Are there any specific edge cases or additional features that should be considered for the function?"
+}

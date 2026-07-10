@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a function that sorts a list of integers based on the sum of their digits. The function will utilize Python's built-in capabilities for sorting while providing a custom key function to calculate the digit sum. We will ensure that the function handles edge cases such as empty lists and negative integers, and maintains the original order for items with the same digit sum by using the stable sorting property of Python's sort.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def order_by_points(nums: List[int]) -> List[int]:\n    \"\"\" Sorts the given list of integers in ascending order according to the sum of their digits.\n    If two integers have the same digit sum, they retain their original order.\n\n    Args:\n        nums (List[int]): A list of integers to be sorted.\n\n    Returns:\n        List[int]: A new list of integers sorted by the sum of their digits.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: order_by_points([1, 11, -1, -11, -12])\n    Function->>Function: Calculate digit sums for each number\n    Function->>Function: Sort numbers based on digit sums and original index\n    Function-->>User: return [-1, -11, 1, -12, 11]\n    User->>Function: order_by_points([])\n    Function-->>User: return []",
+  "Anything UNCLEAR": "Clarification needed on whether the function should handle non-integer inputs or if it should strictly accept integers."
+}

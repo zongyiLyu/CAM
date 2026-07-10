@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "import math\n\ndef poly(xs: list, x: float):\n    \"\"\"\n    Evaluates polynomial with coefficients xs at point x.\n    return xs[0] + xs[1] * x + xs[1] * x^2 + .... xs[n] * x^n\n    \"\"\"\n    return sum([coeff * math.pow(x, i) for i, coeff in enumerate(xs)])\n\ndef find_zero(xs: list):\n    \"\"\" xs are coefficients of a polynomial.\n    find_zero find x such that poly(x) = 0.\n    find_zero returns only only zero point, even if there are many.\n    Moreover, find_zero only takes list xs having even number of coefficients\n    and largest non zero coefficient as it guarantees\n    a solution.\n    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x\n    -0.5\n    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3\n    1.0\n    \"\"\"",
+  "Product Goals": [
+    "Create a reliable polynomial evaluation function",
+    "Implement a robust method to find polynomial roots",
+    "Ensure the code is well-documented and easy to understand"
+  ],
+  "User Stories": [
+    "As a developer, I want to evaluate polynomials easily so that I can use them in my applications.",
+    "As a researcher, I want to find roots of polynomials quickly to analyze mathematical models.",
+    "As a student, I want to understand how polynomial evaluation and root finding works."
+  ],
+  "Competitive Analysis": [
+    "NumPy: Offers polynomial evaluation and root finding but may be complex for beginners.",
+    "SymPy: Provides symbolic mathematics capabilities, including polynomial operations.",
+    "SciPy: Includes advanced numerical methods for root finding but requires understanding of numerical analysis.",
+    "Matplotlib: While primarily for plotting, it can visualize polynomial functions and their roots.",
+    "Wolfram Alpha: Online tool for evaluating polynomials and finding roots, but not programmatic."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Evaluation and Root Finding Tools\"\n    x-axis \"Low Usability\" --> \"High Usability\"\n    y-axis \"Low Functionality\" --> \"High Functionality\"\n    quadrant-1 \"Expand Features\"\n    quadrant-2 \"Improve Usability\"\n    quadrant-3 \"Re-evaluate Position\"\n    quadrant-4 \"Maintain Current Strategy\"\n    \"NumPy\": [0.7, 0.9]\n    \"SymPy\": [0.6, 0.8]\n    \"SciPy\": [0.5, 0.85]\n    \"Matplotlib\": [0.4, 0.5]\n    \"Wolfram Alpha\": [0.9, 0.6]\n    \"Our Product\": [0.8, 0.7]",
+  "Requirement Analysis": "The requirements focus on creating a polynomial evaluation function and a method to find its roots. The polynomial evaluation function should be efficient and handle various polynomial degrees. The root-finding function must ensure that it only accepts valid input and returns a single root, as specified.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the poly function to evaluate polynomials."
+    ],
+    [
+      "P0",
+      "Implement the find_zero function to find a root of the polynomial."
+    ],
+    [
+      "P1",
+      "Ensure proper error handling for invalid inputs."
+    ],
+    [
+      "P1",
+      "Add unit tests to validate the functionality of both functions."
+    ],
+    [
+      "P2",
+      "Document the code thoroughly for better understanding."
+    ]
+  ],
+  "UI Design draft": "The UI will consist of a simple input form for polynomial coefficients and a button to evaluate the polynomial or find its root. The layout will be clean and user-friendly, with clear instructions and results displayed prominently.",
+  "Anything UNCLEAR": "The requirement for the find_zero function specifies that it should only return one root. Should it return the first root found, or is there a specific method preferred for root finding (e.g., Newton's method, bisection method)?"
+}

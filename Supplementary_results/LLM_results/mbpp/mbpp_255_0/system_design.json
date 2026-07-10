@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement the find_remainder function to compute the product of an array and return the result modulo a given number. The function will handle edge cases such as empty arrays and large numbers efficiently. We will use Python's built-in capabilities to ensure simplicity and reliability without the need for external libraries.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def find_remainder(arr: list[int], n: int, m: int) -> int:\n    \"\"\"\n    Calculate the product of an array modulo a number.\n\n    Parameters:\n    arr (list[int]): A list of integers to multiply.\n    n (int): The number to take the product modulo.\n    m (int): An additional parameter that is not used in the calculation but included for compatibility with the user requirement.\n\n    Returns:\n    int: The product of the array elements modulo n.\n\n    Raises:\n    ValueError: If arr is empty.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: find_remainder([100, 10, 5, 25, 35, 14], 6, 11)\n    Function->>Function: Check if arr is empty\n    alt arr is empty\n        Function-->>User: Raise ValueError\n    else\n        Function->>Function: Initialize product = 1\n        loop Iterate over arr\n            Function->>Function: product *= element\n        end\n        Function->>Function: product = product % n\n        Function-->>User: Return product\n    end",
+  "Anything UNCLEAR": "Clarification on whether the function should handle negative numbers or non-integer inputs would be helpful."
+}

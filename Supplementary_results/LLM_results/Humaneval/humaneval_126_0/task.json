@@ -1,0 +1,20 @@
+{
+  "Required packages": [
+    "typing.List"
+  ],
+  "Required Other language third-party packages": [
+    "No third-party dependencies required"
+  ],
+  "Logic Analysis": [
+    [
+      "main.py",
+      "Contains one function 'is_sorted' that checks if a list of integers is sorted in ascending order and ensures that there are no more than one duplicate of the same number."
+    ]
+  ],
+  "File list": [
+    "main.py"
+  ],
+  "Full API spec": "",
+  "Shared Knowledge": "",
+  "Anything UNCLEAR": "No specific performance benchmarks or constraints for large lists have been provided, but the function should be efficient for typical use cases."
+}

@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function parabola_directrix to find the directrix of a parabola.\nparabola_directrix(5,3,2)==-198",
+  "Product Goals": [
+    "Create a reliable mathematical tool",
+    "Ensure accurate calculations for parabolas",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a student, I want to calculate the directrix of a parabola easily",
+    "As a teacher, I want to provide my students with tools to understand parabolas better",
+    "As a developer, I want to integrate this function into a larger mathematical application"
+  ],
+  "Competitive Analysis": [
+    "GeoGebra: Offers a wide range of mathematical tools but can be overwhelming for beginners",
+    "Desmos: User-friendly graphing calculator but lacks directrix calculation",
+    "Wolfram Alpha: Powerful computational engine but requires internet access",
+    "Symbolab: Good for step-by-step solutions but may not focus on directrix specifically",
+    "Mathway: General math solver but lacks specific parabola features"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of mathematical tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"GeoGebra\": [0.7, 0.8]\n    \"Desmos\": [0.8, 0.6]\n    \"Wolfram Alpha\": [0.9, 0.5]\n    \"Symbolab\": [0.6, 0.4]\n    \"Mathway\": [0.5, 0.3]\n    \"Our Target Product\": [0.6, 0.7]",
+  "Requirement Analysis": "The function needs to accurately compute the directrix of a parabola given its parameters. The formula for the directrix of a parabola in standard form needs to be applied correctly.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the directrix calculation based on the parabola's parameters."
+    ],
+    [
+      "P1",
+      "Ensure the function handles edge cases and invalid inputs."
+    ],
+    [
+      "P2",
+      "Provide unit tests to validate the function's accuracy."
+    ]
+  ],
+  "UI Design draft": "A simple command-line interface where users can input parameters and receive the directrix value.",
+  "Anything UNCLEAR": "The specific formula to be used for calculating the directrix based on the parameters provided is not mentioned."
+}

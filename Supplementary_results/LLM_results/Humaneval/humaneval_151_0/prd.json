@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def double_the_difference(lst):\n    '''\n    Given a list of numbers, return the sum of squares of the numbers\n    in the list that are odd. Ignore numbers that are negative or not integers.\n    \n    double_the_difference([1, 3, 2, 0]) == 1 + 9 + 0 + 0 = 10\n    double_the_difference([-1, -2, 0]) == 0\n    double_the_difference([9, -2]) == 81\n    double_the_difference([0]) == 0  \n   \n    If the input list is empty, return 0.\n    '''\n",
+  "Product Goals": [
+    "Ensure accurate calculation of odd squares",
+    "Handle edge cases effectively",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to input a list of numbers and receive the correct sum of squares of odd integers.",
+    "As a user, I want the function to ignore negative numbers and non-integer values.",
+    "As a user, I want to receive a result of 0 when the input list is empty."
+  ],
+  "Competitive Analysis": [
+    "NumPy: Efficient numerical operations but requires additional setup.",
+    "Pandas: Great for data manipulation but may be overkill for simple tasks.",
+    "Built-in Python functions: Simple but may lack performance for large datasets.",
+    "Custom implementations: Can be tailored but may lack optimization.",
+    "Matplotlib: Visualization of results but not focused on calculations."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Performance and Usability of Numerical Libraries\"\n    x-axis \"Low Performance\" --> \"High Performance\"\n    y-axis \"Low Usability\" --> \"High Usability\"\n    quadrant-1 \"High Performance, High Usability\"\n    quadrant-2 \"High Performance, Low Usability\"\n    quadrant-3 \"Low Performance, Low Usability\"\n    quadrant-4 \"Low Performance, High Usability\"\n    \"NumPy\": [0.8, 0.7]\n    \"Pandas\": [0.6, 0.5]\n    \"Built-in Functions\": [0.5, 0.8]\n    \"Custom Implementations\": [0.4, 0.4]\n    \"Matplotlib\": [0.3, 0.6]",
+  "Requirement Analysis": "The function must accurately compute the sum of squares of odd integers while ignoring negative numbers and non-integers. It should also handle edge cases such as empty lists and provide clear documentation for users.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the core logic to calculate the sum of squares of odd integers."
+    ],
+    [
+      "P0",
+      "Ensure the function ignores negative numbers and non-integers."
+    ],
+    [
+      "P1",
+      "Add unit tests to validate the function's behavior."
+    ],
+    [
+      "P1",
+      "Document the function with examples and edge cases."
+    ],
+    [
+      "P2",
+      "Optimize the function for performance with large lists."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for user guidance.",
+  "Anything UNCLEAR": "Are there any specific performance benchmarks or constraints that need to be considered for this function?"
+}

@@ -1,0 +1,21 @@
+{
+  "Required packages": [
+    "typing.List",
+    "typing.Union"
+  ],
+  "Required Other language third-party packages": [
+    "No third-party dependencies required"
+  ],
+  "Logic Analysis": [
+    [
+      "main.py",
+      "Contains one function named split_words that processes a string according to specified rules."
+    ]
+  ],
+  "File list": [
+    "main.py"
+  ],
+  "Full API spec": "",
+  "Shared Knowledge": "",
+  "Anything UNCLEAR": "No specific performance requirements or constraints have been mentioned for the function, such as maximum input size or execution time."
+}

@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function surfacearea_sphere to find the surface area of a sphere.\nsurfacearea_sphere(10)==1256.6370614359173",
+  "Product Goals": [
+    "Create a reliable mathematical function",
+    "Ensure accuracy in calculations",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to calculate the surface area of a sphere with different radii",
+    "As a user, I want to understand how the surface area changes with varying radius",
+    "As a user, I want to see examples of surface area calculations for better understanding"
+  ],
+  "Competitive Analysis": [
+    "Mathway: Offers a variety of math solutions but lacks specific sphere calculations",
+    "Wolfram Alpha: Powerful computational engine but may be overwhelming for simple tasks",
+    "Symbolab: Good for step-by-step solutions but not focused solely on geometry",
+    "GeoGebra: Interactive geometry tool but requires more user input for simple calculations",
+    "Calculator Soup: Simple interface for various calculations but lacks depth in explanations"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of math tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Mathway\": [0.4, 0.5]\n    \"Wolfram Alpha\": [0.7, 0.8]\n    \"Symbolab\": [0.5, 0.6]\n    \"GeoGebra\": [0.6, 0.4]\n    \"Calculator Soup\": [0.3, 0.5]\n    \"Our Target Product\": [0.5, 0.7]",
+  "Requirement Analysis": "The function should accurately compute the surface area of a sphere using the formula 4 * π * r^2, where r is the radius. The implementation should handle various input types and return a float value.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the surface area calculation using the formula."
+    ],
+    [
+      "P1",
+      "Ensure the function handles edge cases, such as negative or non-numeric inputs."
+    ],
+    [
+      "P2",
+      "Provide unit tests to validate the function's accuracy."
+    ]
+  ],
+  "UI Design draft": "A simple command-line interface where users can input the radius and receive the surface area as output.",
+  "Anything UNCLEAR": "Are there any specific edge cases or input validations that should be prioritized in the function implementation?"
+}

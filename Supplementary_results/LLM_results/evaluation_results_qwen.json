@@ -1,0 +1,911 @@
+{
+  "summary": {
+    "model":"Qwen-2.5-Coder",
+    "total_predictions": 100,
+    "correct_predictions": 37,
+    "accuracy": 0.37,
+    "accuracy_percentage": "37.00%"
+  },
+  "detailed_results": [
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_113_0",
+      "answer_keys": [
+        "Data structures and interfaces"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_91_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_137_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_128_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_94_0",
+      "answer_keys": [
+        "Data structures and interfaces"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Analysis\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_74_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_75_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\",\n  \"Implementation approach\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_124_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\",\n  \"Data structures and interfaces\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_132_0",
+      "answer_keys": [
+        "Original Requirements"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\",\n  \"Implementation approach\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_119_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_77_0",
+      "answer_keys": [
+        "Data structures and interfaces"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_26_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Analysis\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_13_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_50_0",
+      "answer_keys": [
+        "Requirement Pool"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Analysis\",\n    \"Requirement Analysis\",\n    \"Data structures and interfaces\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_154_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Program call flow\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_97_0",
+      "answer_keys": [
+        "Data structures and interfaces"
+      ],
+      "predicted_keys": "```json\n[\n    \"Requirement Pool\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_160_0",
+      "answer_keys": [
+        "Anything UNCLEAR"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Quadrant Chart\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_32_0",
+      "answer_keys": [
+        "Requirement Pool"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Pool\",\n  \"Anything UNCLEAR\",\n  \"Data structures and interfaces\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_126_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_130_0",
+      "answer_keys": [
+        "Anything UNCLEAR"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Data structures and interfaces\",\n  \"Program call flow\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_140_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Requirement Pool\",\n  \"Implementation approach\",\n  \"Data structures and interfaces\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_141_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Implementation approach\",\n    \"Data structures and interfaces\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_108_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_125_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Requirement Pool\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_151_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Requirement Pool\",\n    \"Data structures and interfaces\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_83_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n    \"Competitive Quadrant Chart\",\n    \"Requirement Pool\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_129_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Quadrant Chart\",\n    \"Requirement Pool\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_65_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_115_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Pool\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_111_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Implementation approach\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_2_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_100_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_122_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_38_0",
+      "answer_keys": [
+        "Anything UNCLEAR"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_81_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Quadrant Chart\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "Humaneval",
+      "problem_id": "humaneval_145_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Competitive Analysis\",\n  \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_198_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Analysis\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_215_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Quadrant Chart\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_196_0",
+      "answer_keys": [
+        "Data structures and interfaces"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Requirement Pool\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_165_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_218_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_232_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_192_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_240_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_84_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_58_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_249_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_108_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Implementation approach\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_123_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Analysis\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_160_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Analysis\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_111_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_255_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Pool\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_170_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_217_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Program call flow\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_73_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_136_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_97_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Pool\",\n  \"Anything UNCLEAR\",\n  \"Implementation approach\",\n  \"Data structures and interfaces\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_65_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\"Anything UNCLEAR\", \"Competitive Analysis\", \"Requirement Analysis\"]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_41_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_117_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_37_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"User Stories\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_53_0",
+      "answer_keys": [
+        "Data structures and interfaces"
+      ],
+      "predicted_keys": "```json\n[\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\",\n    \"Implementation approach\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_38_0",
+      "answer_keys": [
+        "Data structures and interfaces"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_10_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Requirement Pool\",\n  \"Data structures and interfaces\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_141_0",
+      "answer_keys": [
+        "Original Requirements"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_234_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_171_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Pool\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_100_0",
+      "answer_keys": [
+        "Original Requirements"
+      ],
+      "predicted_keys": "```json\n[\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_63_0",
+      "answer_keys": [
+        "Competitive Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Requirement Analysis\",\n    \"Competitive Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_115_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_67_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\",\n    \"Implementation approach\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_231_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_74_0",
+      "answer_keys": [
+        "Data structures and interfaces"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_46_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"User Stories\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_205_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Requirement Pool\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_72_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Competitive Quadrant Chart\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_56_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_90_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Data structures and interfaces\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_15_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_190_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"User Stories\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_0_0",
+      "answer_keys": [
+        "Requirement Analysis, User Stories, Product Goals"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Requirement Pool\",\n    \"Data structures and interfaces\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_59_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"User Stories\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_114_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_29_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"User Stories\",\n    \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_134_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"Original Requirements\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_7_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_30_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_158_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_125_0",
+      "answer_keys": [
+        "Requirement Pool"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Requirement Pool\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_225_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Original Requirements\",\n  \"Requirement Analysis\",\n  \"Anything UNCLEAR\",\n  \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_178_0",
+      "answer_keys": [
+        "Program call flow"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\",\n  \"Competitive Quadrant Chart\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_57_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_62_0",
+      "answer_keys": [
+        "Requirement Pool"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Analysis\",\n  \"Competitive Analysis\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_220_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\",\n    \"Implementation approach\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_68_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Competitive Analysis\",\n    \"Requirement Analysis\",\n    \"Requirement Pool\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_39_0",
+      "answer_keys": [
+        "Requirement Pool"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\",\n    \"User Stories\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_169_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Anything UNCLEAR\",\n    \"Requirement Analysis\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_173_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n  \"Anything UNCLEAR\",\n  \"Requirement Pool\",\n  \"Competitive Quadrant Chart\"\n]\n```",
+      "correct": false
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_16_0",
+      "answer_keys": [
+        "Requirement Analysis"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"User Stories\",\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": true
+    },
+    {
+      "benchmark": "mbpp",
+      "problem_id": "mbpp_172_0",
+      "answer_keys": [
+        "Implementation approach"
+      ],
+      "predicted_keys": "```json\n[\n    \"Original Requirements\",\n    \"Requirement Analysis\",\n    \"Anything UNCLEAR\",\n    \"Anything UNCLEAR\"\n]\n```",
+      "correct": false
+    }
+  ]
+}

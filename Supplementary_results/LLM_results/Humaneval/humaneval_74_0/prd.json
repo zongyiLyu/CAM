@@ -1,0 +1,38 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def total_match(lst1, lst2):\n    '''\n    Write a function that accepts two lists of strings and returns the list that has \n    total number of chars in the all strings of the list less than the other list.\n\n    if the two lists have the same number of chars, return the first list.\n\n    Examples\n    total_match([], []) ➞ []\n    total_match(['hi', 'admin'], ['hI', 'Hi']) ➞ ['hI', 'Hi']\n    total_match(['hi', 'admin'], ['hi', 'hi', 'admin', 'project']) ➞ ['hi', 'admin']\n    total_match(['hi', 'admin'], ['hI', 'hi', 'hi']) ➞ ['hI', 'hi', 'hi']\n    total_match(['4'], ['1', '2', '3', '4', '5']) ➞ ['4']\n    '''\n",
+  "Product Goals": [
+    "Create a function that accurately compares two lists of strings",
+    "Ensure the function handles edge cases like empty lists",
+    "Provide clear and understandable examples in the documentation"
+  ],
+  "User Stories": [
+    "As a developer, I want to use the function to compare two lists of strings easily",
+    "As a user, I want to understand how the function works through examples",
+    "As a user, I want the function to handle cases where lists are empty"
+  ],
+  "Competitive Analysis": [
+    "String comparison libraries: Often lack specific functionality for list comparisons",
+    "Custom utility functions: May not handle edge cases effectively",
+    "General-purpose libraries: Can be too complex for simple tasks like this"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Comparison of String List Functions\"\n    x-axis \"Low Complexity\" --> \"High Complexity\"\n    y-axis \"Low Functionality\" --> \"High Functionality\"\n    quadrant-1 \"Expand features\"\n    quadrant-2 \"Optimize performance\"\n    quadrant-3 \"Re-evaluate use cases\"\n    quadrant-4 \"Maintain simplicity\"\n    \"Library A\": [0.2, 0.4]\n    \"Library B\": [0.5, 0.7]\n    \"Library C\": [0.8, 0.3]\n    \"Our Function\": [0.3, 0.5]",
+  "Requirement Analysis": "The function must accurately compare the total character counts of two lists of strings and return the appropriate list based on the specified conditions. It should also handle edge cases such as empty lists and provide clear documentation.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the total_match function with correct logic"
+    ],
+    [
+      "P1",
+      "Add unit tests to verify function behavior"
+    ],
+    [
+      "P2",
+      "Document the function with examples"
+    ]
+  ],
+  "UI Design draft": "The function will be a simple utility without a UI, but documentation will be clear and concise, with examples formatted for easy understanding.",
+  "Anything UNCLEAR": "Are there any specific performance requirements or constraints for the function that need to be considered?"
+}

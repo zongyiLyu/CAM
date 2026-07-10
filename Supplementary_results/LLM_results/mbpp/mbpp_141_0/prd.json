@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function find_star_num to find the n'th star number.\nfind_star_num(3) == 37",
+  "Product Goals": [
+    "Create a function that accurately calculates star numbers",
+    "Ensure the function is efficient and handles edge cases",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to input a number and receive the corresponding star number",
+    "As a user, I want to understand how the star number is calculated",
+    "As a user, I want to see examples of star numbers for better understanding"
+  ],
+  "Competitive Analysis": [
+    "Star Number Calculator A: Basic functionality but lacks user guidance",
+    "Star Number Tool B: Provides calculations but is not user-friendly",
+    "Math Functions C: Offers a variety of number calculations but is complex",
+    "Star Number App D: Simple interface but limited to only star numbers",
+    "Online Math Tools E: Comprehensive but overwhelming for simple tasks"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of star number calculators\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Calculator A\": [0.2, 0.4]\n    \"Calculator B\": [0.5, 0.3]\n    \"Calculator C\": [0.6, 0.7]\n    \"Calculator D\": [0.8, 0.5]\n    \"Calculator E\": [0.4, 0.6]\n    \"Our Target Product\": [0.7, 0.6]",
+  "Requirement Analysis": "The function needs to compute the n-th star number based on the mathematical formula for star numbers, which is given by the formula: S(n) = n(6n - 6 + 1)/2. The implementation should handle various input types and provide error messages for invalid inputs.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the star number calculation function."
+    ],
+    [
+      "P1",
+      "Create unit tests to validate the function."
+    ],
+    [
+      "P2",
+      "Document the function with examples and usage."
+    ]
+  ],
+  "UI Design draft": "A simple command-line interface where users can input a number and receive the star number output, along with a brief explanation of star numbers.",
+  "Anything UNCLEAR": "Clarification needed on whether the function should handle negative inputs or non-integer values."
+}

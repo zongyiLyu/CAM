@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a simple function named 'is_sorted' that checks if a list of integers is sorted in ascending order and ensures that there are no more than one duplicate of the same number. The function will iterate through the list, comparing each element with the next and keeping track of seen numbers to check for duplicates. This approach is efficient and straightforward, leveraging basic Python constructs without the need for external libraries.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def is_sorted(lst: List[int]) -> bool:\n    '''\n    Given a list of numbers, return whether or not they are sorted\n    in ascending order. If list has more than 1 duplicate of the same\n    number, return False. Assume no negative numbers and only integers.\n\n    Parameters:\n    lst (List[int]): A list of non-negative integers.\n\n    Returns:\n    bool: True if the list is sorted in ascending order and has no more than one duplicate of the same number, False otherwise.\n\n    Examples:\n    is_sorted([5]) ➞ True\n    is_sorted([1, 2, 3, 4, 5]) ➞ True\n    is_sorted([1, 3, 2, 4, 5]) ➞ False\n    is_sorted([1, 2, 2, 3, 3, 4]) ➞ True\n    is_sorted([1, 2, 2, 2, 3, 4]) ➞ False\n    '''",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: is_sorted([5])\n    Function-->>User: True\n    User->>Function: is_sorted([1, 2, 3, 4, 5])\n    Function-->>User: True\n    User->>Function: is_sorted([1, 3, 2, 4, 5])\n    Function-->>User: False\n    User->>Function: is_sorted([1, 2, 2, 3, 3, 4])\n    Function-->>User: True\n    User->>Function: is_sorted([1, 2, 2, 2, 3, 4])\n    Function-->>User: False",
+  "Anything UNCLEAR": "No specific performance benchmarks or constraints for large lists have been provided, but the function should be efficient for typical use cases."
+}
