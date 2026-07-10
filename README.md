@@ -1,6 +1,6 @@
 ## CAM: A Causality-Based Analysis Framework For Multi-Agent Code Generation Systems
 
-**This Repo is modified based on source coode of [MetaGPT](https://github.com/FoundationAgents/MetaGPT).**
+**This Repo is modified based on source code of [MetaGPT](https://github.com/FoundationAgents/MetaGPT).**
 
 ### Prerequisites
 
