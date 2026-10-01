@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function larg_nnum that takes in a list and an integer n and returns a list containing the n largest items from the list.\nlarg_nnum([10, 20, 50, 70, 90, 20, 50, 40, 60, 80, 100],2)==[100,90]",
+  "Product Goals": [
+    "Create a function that efficiently retrieves the largest numbers from a list",
+    "Ensure the function handles edge cases, such as duplicate values",
+    "Provide clear documentation and examples for users"
+  ],
+  "User Stories": [
+    "As a user, I want to retrieve the top n largest numbers from a list so that I can analyze the data effectively",
+    "As a user, I want the function to handle lists with duplicate values correctly",
+    "As a user, I want to see examples of how to use the function in the documentation"
+  ],
+  "Competitive Analysis": [
+    "Python's built-in sorted function: Simple but not optimized for large datasets",
+    "NumPy library: Efficient for numerical operations but requires additional installation",
+    "Pandas library: Great for data manipulation but may be overkill for simple tasks",
+    "Custom implementations found in various online forums: Vary in efficiency and clarity",
+    "Heapq module: Provides a way to get the n largest elements but may not be intuitive for all users"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of campaigns\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Built-in sorted\": [0.6, 0.5]\n    \"NumPy\": [0.7, 0.8]\n    \"Pandas\": [0.5, 0.6]\n    \"Custom implementations\": [0.4, 0.4]\n    \"Heapq\": [0.5, 0.7]",
+  "Requirement Analysis": "The function should take a list and an integer n as inputs. It must return a list of the n largest unique items from the input list. The function should handle cases where n is greater than the number of unique items in the list gracefully.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the larg_nnum function to return the n largest items."
+    ],
+    [
+      "P1",
+      "Ensure the function handles duplicate values correctly."
+    ],
+    [
+      "P1",
+      "Add error handling for cases where n is larger than the list size."
+    ],
+    [
+      "P2",
+      "Provide unit tests to validate the function's behavior."
+    ],
+    [
+      "P2",
+      "Document the function with examples and usage instructions."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided in a markdown format for user reference.",
+  "Anything UNCLEAR": "Clarification on whether the function should return duplicates if they are among the largest n items."
+}

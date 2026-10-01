@@ -1,0 +1,3 @@
+{"total_runs": 1, "len_cause": 1, "intervened_features": "prd_Language", "eval_result": true, "finished_features": [], "current_causes": []}
+{"total_runs": 2, "len_cause": 1, "intervened_features": "prd_Programming Language", "eval_result": true, "finished_features": [], "current_causes": []}
+{"total_runs": 3, "len_cause": 1, "intervened_features": "prd_Original Requirements", "eval_result": false, "finished_features": ["prd_Original Requirements"], "current_causes": ["prd_Original Requirements"]}

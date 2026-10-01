@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function count_binary_seq to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.\ncount_binary_seq(1) == 2.0",
+  "Product Goals": [
+    "Create a function that accurately counts binary sequences",
+    "Ensure the function is efficient for larger values of n",
+    "Provide clear documentation and examples for users"
+  ],
+  "User Stories": [
+    "As a developer, I want to use the function to generate binary sequences for analysis",
+    "As a researcher, I want to understand the mathematical properties of binary sequences",
+    "As a student, I want to learn how to implement combinatorial algorithms"
+  ],
+  "Competitive Analysis": [
+    "Binary Sequence Generator A: Basic functionality but lacks optimization",
+    "Combinatorial Tools B: Offers a variety of combinatorial functions but is complex to use",
+    "Sequence Analyzer C: Provides analysis tools but does not include binary sequence generation",
+    "Math Functions D: Comprehensive library but not focused on binary sequences",
+    "Algorithm Explorer E: Good for educational purposes but lacks performance for large n"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Performance and Usability of Binary Sequence Tools\"\n    x-axis \"Low Performance\" --> \"High Performance\"\n    y-axis \"Low Usability\" --> \"High Usability\"\n    quadrant-1 \"Expand features\"\n    quadrant-2 \"Improve usability\"\n    quadrant-3 \"Re-evaluate performance\"\n    quadrant-4 \"Maintain current features\"\n    \"Binary Sequence Generator A\": [0.3, 0.5]\n    \"Combinatorial Tools B\": [0.6, 0.4]\n    \"Sequence Analyzer C\": [0.5, 0.7]\n    \"Math Functions D\": [0.7, 0.6]\n    \"Algorithm Explorer E\": [0.4, 0.3]",
+  "Requirement Analysis": "The function needs to calculate the number of valid binary sequences of length 2n where the sum of the first n bits equals the sum of the last n bits. This involves combinatorial mathematics and may require dynamic programming for efficiency.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the count_binary_seq function with optimal performance."
+    ],
+    [
+      "P1",
+      "Provide unit tests to validate the function's correctness."
+    ],
+    [
+      "P2",
+      "Document the function with examples and edge cases."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided in a markdown format.",
+  "Anything UNCLEAR": "The requirements are clear, but it would be helpful to know the expected range for n to optimize the function accordingly."
+}

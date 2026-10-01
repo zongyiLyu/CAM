@@ -1,0 +1,92 @@
+feature: prd_Language 
+ parents: ['prd_Language'] 
+ children: ['prd_Language', 'design_Implementation approach', 'design_Anything UNCLEAR', 'task_Logic Analysis', 'task_Anything UNCLEAR']
+
+feature: prd_Programming Language 
+ parents: ['prd_Programming Language'] 
+ children: ['prd_Programming Language', 'task_Anything UNCLEAR']
+
+feature: prd_Original Requirements 
+ parents: [] 
+ children: []
+
+feature: prd_Product Goals 
+ parents: [] 
+ children: []
+
+feature: prd_User Stories 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_Competitive Analysis 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_Competitive Quadrant Chart 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_Requirement Analysis 
+ parents: [] 
+ children: []
+
+feature: prd_Requirement Pool 
+ parents: [] 
+ children: []
+
+feature: prd_UI Design draft 
+ parents: ['prd_UI Design draft'] 
+ children: ['prd_UI Design draft']
+
+feature: prd_Anything UNCLEAR 
+ parents: [] 
+ children: []
+
+feature: design_Implementation approach 
+ parents: ['prd_Language'] 
+ children: []
+
+feature: design_File list 
+ parents: [] 
+ children: []
+
+feature: design_Data structures and interfaces 
+ parents: [] 
+ children: []
+
+feature: design_Program call flow 
+ parents: [] 
+ children: []
+
+feature: design_Anything UNCLEAR 
+ parents: ['prd_Language'] 
+ children: ['task_Anything UNCLEAR']
+
+feature: task_Required packages 
+ parents: [] 
+ children: []
+
+feature: task_Required Other language third-party packages 
+ parents: [] 
+ children: []
+
+feature: task_Logic Analysis 
+ parents: ['prd_Language'] 
+ children: []
+
+feature: task_File list 
+ parents: [] 
+ children: []
+
+feature: task_Full API spec 
+ parents: [] 
+ children: []
+
+feature: task_Shared Knowledge 
+ parents: [] 
+ children: []
+
+feature: task_Anything UNCLEAR 
+ parents: ['prd_Language', 'prd_Programming Language', 'prd_User Stories', 'prd_Competitive Analysis', 'prd_Competitive Quadrant Chart', 'design_Anything UNCLEAR'] 
+ children: []
+

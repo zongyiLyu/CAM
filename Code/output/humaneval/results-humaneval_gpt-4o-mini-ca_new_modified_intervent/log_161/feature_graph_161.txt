@@ -1,0 +1,92 @@
+feature: prd_Language 
+ parents: ['prd_Language'] 
+ children: ['prd_Language', 'design_Implementation approach', 'design_Data structures and interfaces', 'design_Anything UNCLEAR', 'task_Logic Analysis', 'task_Anything UNCLEAR']
+
+feature: prd_Programming Language 
+ parents: ['prd_Programming Language'] 
+ children: ['prd_Programming Language', 'design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: prd_Original Requirements 
+ parents: [] 
+ children: []
+
+feature: prd_Product Goals 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_User Stories 
+ parents: ['prd_User Stories'] 
+ children: ['prd_User Stories', 'task_Anything UNCLEAR']
+
+feature: prd_Competitive Analysis 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_Competitive Quadrant Chart 
+ parents: [] 
+ children: []
+
+feature: prd_Requirement Analysis 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_Requirement Pool 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_UI Design draft 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_Anything UNCLEAR 
+ parents: ['prd_Anything UNCLEAR'] 
+ children: ['prd_Anything UNCLEAR', 'design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: design_Implementation approach 
+ parents: ['prd_Language'] 
+ children: []
+
+feature: design_File list 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: design_Data structures and interfaces 
+ parents: ['prd_Language'] 
+ children: []
+
+feature: design_Program call flow 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: design_Anything UNCLEAR 
+ parents: ['prd_Language', 'prd_Programming Language', 'prd_Anything UNCLEAR', 'design_Anything UNCLEAR'] 
+ children: ['design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: task_Required packages 
+ parents: [] 
+ children: []
+
+feature: task_Required Other language third-party packages 
+ parents: [] 
+ children: []
+
+feature: task_Logic Analysis 
+ parents: ['prd_Language'] 
+ children: []
+
+feature: task_File list 
+ parents: [] 
+ children: []
+
+feature: task_Full API spec 
+ parents: [] 
+ children: []
+
+feature: task_Shared Knowledge 
+ parents: [] 
+ children: []
+
+feature: task_Anything UNCLEAR 
+ parents: ['prd_Language', 'prd_Programming Language', 'prd_Product Goals', 'prd_User Stories', 'prd_Competitive Analysis', 'prd_Requirement Analysis', 'prd_Requirement Pool', 'prd_UI Design draft', 'prd_Anything UNCLEAR', 'design_File list', 'design_Program call flow', 'design_Anything UNCLEAR'] 
+ children: []
+

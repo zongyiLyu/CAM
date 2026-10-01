@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function eulerian_num to find the Eulerian number a(n, m).\neulerian_num(3, 1) == 4",
+  "Product Goals": [
+    "Create a reliable mathematical function",
+    "Ensure accurate computation of Eulerian numbers",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a mathematician, I want to calculate Eulerian numbers for different values of n and m",
+    "As a student, I want to understand how to use the function with examples",
+    "As a developer, I want to integrate the function into my application easily"
+  ],
+  "Competitive Analysis": [
+    "MathTools: Provides various mathematical functions but lacks Eulerian number calculation",
+    "NumPy: Offers extensive mathematical functions but requires complex syntax for Eulerian numbers",
+    "SymPy: Symbolic mathematics library that can compute Eulerian numbers but is heavy for simple tasks",
+    "Wolfram Alpha: Can compute Eulerian numbers but is not a direct programming solution",
+    "Mathematica: Powerful tool for mathematical computations but not accessible for all users"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of mathematical tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"MathTools\": [0.4, 0.5]\n    \"NumPy\": [0.6, 0.4]\n    \"SymPy\": [0.5, 0.6]\n    \"Wolfram Alpha\": [0.7, 0.3]\n    \"Mathematica\": [0.8, 0.5]\n    \"Our Target Product\": [0.5, 0.7]",
+  "Requirement Analysis": "The function needs to compute Eulerian numbers based on the given parameters n and m. It should handle edge cases and provide accurate results. The implementation should be efficient to cater to larger values of n and m.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the eulerian_num function to compute Eulerian numbers."
+    ],
+    [
+      "P1",
+      "Add error handling for invalid inputs."
+    ],
+    [
+      "P2",
+      "Provide unit tests to ensure the function works correctly."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI is required. However, documentation should be clear and concise, with examples of usage.",
+  "Anything UNCLEAR": "Clarification on the expected range of inputs for n and m would be helpful."
+}

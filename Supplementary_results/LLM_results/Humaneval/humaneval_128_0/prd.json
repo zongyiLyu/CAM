@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def prod_signs(arr):\n    \"\"\"\n    You are given an array arr of integers and you need to return\n    sum of magnitudes of integers multiplied by product of all signs\n    of each number in the array, represented by 1, -1 or 0.\n    Note: return None for empty arr.\n\n    Example:\n    >>> prod_signs([1, 2, 2, -4]) == -9\n    >>> prod_signs([0, 1]) == 0\n    >>> prod_signs([]) == None\n    \"\"\"\n",
+  "Product Goals": [
+    "Ensure accurate calculation of product signs",
+    "Handle edge cases like empty arrays",
+    "Provide clear documentation and examples"
+  ],
+  "User Stories": [
+    "As a user, I want to input an array of integers and receive the correct output based on the product of signs.",
+    "As a user, I want to understand how the function works through clear examples.",
+    "As a user, I want the function to handle empty arrays gracefully."
+  ],
+  "Competitive Analysis": [
+    "NumPy: Offers extensive mathematical functions but may be overkill for simple tasks.",
+    "Pandas: Great for data manipulation but not focused on simple array operations.",
+    "Custom implementations: Various user-defined functions available online, but lack standardization.",
+    "Math libraries: Provide basic operations but may not handle sign products specifically.",
+    "Online calculators: Can compute similar results but lack flexibility for custom inputs."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of campaigns\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Campaign A\": [0.2, 0.4]\n    \"Campaign B\": [0.5, 0.3]\n    \"Campaign C\": [0.6, 0.7]\n    \"Campaign D\": [0.8, 0.5]\n    \"Campaign E\": [0.4, 0.6]\n    \"Campaign F\": [0.3, 0.8]\n    \"Our Target Product\": [0.5, 0.5]",
+  "Requirement Analysis": "The function needs to compute the sum of the magnitudes of integers in the array, while also considering the product of their signs. It should return None for empty arrays, and handle cases where the array contains zero appropriately.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the core logic to calculate the sum of magnitudes and product of signs."
+    ],
+    [
+      "P1",
+      "Ensure the function returns None for empty input."
+    ],
+    [
+      "P1",
+      "Add comprehensive docstring with examples."
+    ],
+    [
+      "P2",
+      "Optimize for performance with larger arrays."
+    ],
+    [
+      "P2",
+      "Include unit tests to validate functionality."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for user guidance.",
+  "Anything UNCLEAR": "Clarification needed on how to handle arrays with multiple zeros and their impact on the product of signs."
+}

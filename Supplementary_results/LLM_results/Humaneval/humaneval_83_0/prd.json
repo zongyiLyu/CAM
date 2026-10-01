@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def starts_one_ends(n):\n    \"\"\"\n    Given a positive integer n, return the count of the numbers of n-digit\n    positive integers that start or end with 1.\n    \"\"\"\n",
+  "Product Goals": [
+    "Create a function that accurately counts n-digit integers starting or ending with 1",
+    "Ensure the function is efficient and handles large values of n",
+    "Provide clear documentation and examples for users"
+  ],
+  "User Stories": [
+    "As a developer, I want to use the function to generate statistics for n-digit integers",
+    "As a user, I want to understand how the function works through examples",
+    "As a data analyst, I want to integrate this function into my data processing pipeline"
+  ],
+  "Competitive Analysis": [
+    "MathUtils: Provides basic number counting functions but lacks specific features",
+    "NumPy: Offers extensive numerical operations but is complex for simple tasks",
+    "CountDigits: A specialized library for counting digits but not optimized for performance",
+    "IntegerStats: Good for statistical analysis but lacks user-friendly documentation",
+    "DigitCounter: Simple interface but limited functionality"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of campaigns\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"MathUtils\": [0.4, 0.5]\n    \"NumPy\": [0.7, 0.8]\n    \"CountDigits\": [0.3, 0.4]\n    \"IntegerStats\": [0.5, 0.6]\n    \"DigitCounter\": [0.2, 0.3]\n    \"Our Target Product\": [0.6, 0.7]",
+  "Requirement Analysis": "The function should efficiently calculate the count of n-digit integers that either start or end with the digit 1. It needs to handle edge cases, such as when n is 1, and should be optimized for performance to handle larger values of n.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the counting logic for n-digit integers."
+    ],
+    [
+      "P1",
+      "Optimize the function for performance."
+    ],
+    [
+      "P1",
+      "Provide comprehensive documentation and examples."
+    ],
+    [
+      "P2",
+      "Include unit tests to ensure accuracy."
+    ],
+    [
+      "P2",
+      "Handle edge cases and input validation."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided in a markdown format for user guidance.",
+  "Anything UNCLEAR": "The requirements are clear, but it would be helpful to know if there are any specific performance benchmarks or constraints for the function."
+}

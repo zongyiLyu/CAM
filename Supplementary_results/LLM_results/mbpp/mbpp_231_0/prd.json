@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a python function largest_neg to find the largest negative number from the given list.\nlargest_neg([1,2,3,-4,-6]) == -6",
+  "Product Goals": [
+    "Create a reliable function to find the largest negative number",
+    "Ensure the function handles edge cases correctly",
+    "Provide clear documentation for the function"
+  ],
+  "User Stories": [
+    "As a developer, I want to use the function to filter negative numbers from a dataset",
+    "As a user, I want to ensure the function returns the correct largest negative number",
+    "As a tester, I want to validate the function against various test cases"
+  ],
+  "Competitive Analysis": [
+    "NumPy: Provides extensive array operations but may be overkill for simple tasks",
+    "Pandas: Great for data manipulation but not focused on single value extraction",
+    "Built-in Python functions: Simple but may not be optimized for specific use cases",
+    "Custom libraries: May offer similar functionality but lack community support",
+    "Other utility functions: Often limited in scope and flexibility"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Function Performance and Usability\"\n    x-axis \"Low Performance\" --> \"High Performance\"\n    y-axis \"Low Usability\" --> \"High Usability\"\n    quadrant-1 \"Expand features\"\n    quadrant-2 \"Improve documentation\"\n    quadrant-3 \"Re-evaluate design\"\n    quadrant-4 \"Maintain current state\"\n    \"Function A\": [0.3, 0.6]\n    \"Function B\": [0.45, 0.23]\n    \"Function C\": [0.57, 0.69]\n    \"Function D\": [0.78, 0.34]\n    \"Our Target Function\": [0.5, 0.6]",
+  "Requirement Analysis": "The function should efficiently iterate through the list, identify negative numbers, and return the largest one. It should handle cases where there are no negative numbers gracefully.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the largest_neg function to find the largest negative number."
+    ],
+    [
+      "P1",
+      "Handle edge cases such as empty lists or lists without negative numbers."
+    ],
+    [
+      "P2",
+      "Provide unit tests to validate the function's correctness."
+    ]
+  ],
+  "UI Design draft": "The function will be a simple utility without a UI, but documentation should be clear and concise, explaining input and output formats.",
+  "Anything UNCLEAR": "Are there specific edge cases or performance requirements that need to be considered for the function?"
+}

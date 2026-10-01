@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a python function set_left_most_unset_bit to set the left most unset bit.\nset_left_most_unset_bit(10) == 14",
+  "Product Goals": [
+    "Create a function that accurately sets the left most unset bit",
+    "Ensure the function is efficient and handles edge cases",
+    "Provide clear documentation and examples for users"
+  ],
+  "User Stories": [
+    "As a developer, I want to use the function to manipulate binary numbers easily",
+    "As a user, I want to understand how the function works through examples",
+    "As a programmer, I want the function to handle various input types gracefully"
+  ],
+  "Competitive Analysis": [
+    "Bit Manipulation Library A: Offers basic bit manipulation functions but lacks specific unset bit functionality",
+    "Bitwise Operations Toolkit: Comprehensive but overly complex for simple tasks",
+    "Binary Helper: Provides similar functions but with less efficiency",
+    "Python Bit Manipulation Module: Good documentation but limited examples",
+    "Custom Bit Manipulation Library: Tailored for specific use cases, not generalizable"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of bit manipulation tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Library A\": [0.3, 0.6]\n    \"Toolkit B\": [0.45, 0.23]\n    \"Helper C\": [0.57, 0.69]\n    \"Module D\": [0.78, 0.34]\n    \"Custom Library E\": [0.40, 0.34]\n    \"Our Target Function\": [0.5, 0.6]",
+  "Requirement Analysis": "The requirement is to create a function that sets the left most unset bit in a given integer. This involves understanding binary representation and bit manipulation techniques. The function should be efficient and handle various edge cases, such as when all bits are set.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the function to set the left most unset bit."
+    ],
+    [
+      "P1",
+      "Ensure the function handles edge cases, such as all bits set."
+    ],
+    [
+      "P2",
+      "Provide documentation and examples for clarity."
+    ]
+  ],
+  "UI Design draft": "The function will be a simple utility without a UI, but documentation will include clear examples and explanations of how to use the function effectively.",
+  "Anything UNCLEAR": "Clarification on whether the function should handle negative numbers or only positive integers would be helpful."
+}

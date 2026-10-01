@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement the eulerian_num function using a recursive approach with memoization to efficiently compute Eulerian numbers. The function will handle edge cases such as invalid inputs and will be documented clearly for user understanding.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def eulerian_num(n: int, m: int) -> int:\n    \"\"\"\n    Calculate the Eulerian number A(n, m).\n\n    Parameters:\n    n (int): The number of elements.\n    m (int): The number of permutations with exactly m ascents.\n\n    Returns:\n    int: The Eulerian number A(n, m).\n\n    Raises:\n    ValueError: If n or m is negative or if m is greater than n.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: eulerian_num(3, 1)\n    Function-->>User: Returns 4\n    User->>Function: eulerian_num(5, 2)\n    Function-->>User: Returns 30\n    User->>Function: eulerian_num(-1, 0)\n    Function-->>User: Raises ValueError\n    User->>Function: eulerian_num(3, 4)\n    Function-->>User: Raises ValueError",
+  "Anything UNCLEAR": "Clarification on the expected range of inputs for n and m would be helpful."
+}

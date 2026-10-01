@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function median_trapezium to find the median length of a trapezium.\nmedian_trapezium(15,25,35)==20",
+  "Product Goals": [
+    "Create a reliable function for calculating median lengths",
+    "Ensure the function handles various trapezium dimensions",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to calculate the median length of a trapezium easily",
+    "As a user, I want to input different lengths and get accurate results",
+    "As a user, I want to understand how the median is calculated"
+  ],
+  "Competitive Analysis": [
+    "Trapezium Calculator A: Basic functionality, lacks detailed explanations",
+    "Geometry Tool B: Offers various geometric calculations but is complex to use",
+    "Math Helper C: User-friendly interface but limited to basic shapes",
+    "Shape Analyzer D: Comprehensive but overwhelming for simple tasks",
+    "Quick Calc E: Fast calculations but lacks depth in explanations"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of trapezium calculators\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"Expand marketing efforts\"\n    quadrant-2 \"Improve user engagement\"\n    quadrant-3 \"Re-evaluate features\"\n    quadrant-4 \"Maintain current strategy\"\n    \"Calculator A\": [0.2, 0.4]\n    \"Calculator B\": [0.5, 0.3]\n    \"Calculator C\": [0.6, 0.7]\n    \"Calculator D\": [0.8, 0.5]\n    \"Calculator E\": [0.4, 0.6]\n    \"Our Target Product\": [0.7, 0.6]",
+  "Requirement Analysis": "The function should take three parameters representing the lengths of the trapezium and return the median length. It should handle edge cases such as negative values or non-numeric inputs gracefully.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the median_trapezium function"
+    ],
+    [
+      "P1",
+      "Add input validation for the function"
+    ],
+    [
+      "P2",
+      "Create unit tests for various trapezium dimensions"
+    ]
+  ],
+  "UI Design draft": "A simple command-line interface where users can input lengths and receive the median length as output. Clear instructions and error messages will enhance user experience.",
+  "Anything UNCLEAR": "What specific edge cases should be considered for input validation?"
+}

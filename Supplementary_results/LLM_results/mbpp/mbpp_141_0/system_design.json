@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a simple function to calculate the n-th star number using the formula S(n) = n(6n - 6 + 1)/2. The function will handle edge cases such as negative inputs and non-integer values by raising appropriate exceptions. We will use Python's built-in capabilities without any external libraries for this straightforward calculation.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def find_star_num(n: int) -> int:\n    \"\"\"\n    Calculate the n-th star number.\n\n    A star number is defined by the formula:\n    S(n) = n(6n - 6 + 1)/2\n\n    Parameters:\n    n (int): The index of the star number to calculate. Must be a non-negative integer.\n\n    Returns:\n    int: The n-th star number.\n\n    Raises:\n    ValueError: If n is negative or not an integer.\n\n    Examples:\n    >>> find_star_num(3)\n    37\n    >>> find_star_num(0)\n    1\n    >>> find_star_num(1)\n    1\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: find_star_num(3)\n    Function-->>User: Returns 37\n    User->>Function: find_star_num(0)\n    Function-->>User: Returns 1\n    User->>Function: find_star_num(-1)\n    Function-->>User: Raises ValueError\n    User->>Function: find_star_num(2.5)\n    Function-->>User: Raises ValueError",
+  "Anything UNCLEAR": "Clarification needed on whether the function should handle negative inputs or non-integer values."
+}

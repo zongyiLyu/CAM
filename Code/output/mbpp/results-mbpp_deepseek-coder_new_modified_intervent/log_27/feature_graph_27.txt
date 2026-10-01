@@ -1,0 +1,92 @@
+feature: prd_Language 
+ parents: ['prd_Language'] 
+ children: ['prd_Language', 'task_Full API spec']
+
+feature: prd_Programming Language 
+ parents: ['prd_Programming Language'] 
+ children: ['prd_Programming Language', 'design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: prd_Original Requirements 
+ parents: [] 
+ children: []
+
+feature: prd_Product Goals 
+ parents: [] 
+ children: ['task_Full API spec']
+
+feature: prd_User Stories 
+ parents: [] 
+ children: []
+
+feature: prd_Competitive Analysis 
+ parents: [] 
+ children: ['design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: prd_Competitive Quadrant Chart 
+ parents: [] 
+ children: ['design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: prd_Requirement Analysis 
+ parents: [] 
+ children: ['design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: prd_Requirement Pool 
+ parents: [] 
+ children: ['design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: prd_UI Design draft 
+ parents: [] 
+ children: ['task_Full API spec']
+
+feature: prd_Anything UNCLEAR 
+ parents: ['prd_Anything UNCLEAR'] 
+ children: ['prd_Anything UNCLEAR', 'design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: design_Implementation approach 
+ parents: [] 
+ children: ['task_Full API spec']
+
+feature: design_File list 
+ parents: [] 
+ children: ['task_Full API spec']
+
+feature: design_Data structures and interfaces 
+ parents: [] 
+ children: ['task_Full API spec']
+
+feature: design_Program call flow 
+ parents: [] 
+ children: []
+
+feature: design_Anything UNCLEAR 
+ parents: ['prd_Programming Language', 'prd_Competitive Analysis', 'prd_Competitive Quadrant Chart', 'prd_Requirement Analysis', 'prd_Requirement Pool', 'prd_Anything UNCLEAR', 'design_Anything UNCLEAR'] 
+ children: ['design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: task_Required packages 
+ parents: [] 
+ children: []
+
+feature: task_Required Other language third-party packages 
+ parents: [] 
+ children: []
+
+feature: task_Logic Analysis 
+ parents: [] 
+ children: []
+
+feature: task_File list 
+ parents: [] 
+ children: []
+
+feature: task_Full API spec 
+ parents: ['prd_Language', 'prd_Product Goals', 'prd_UI Design draft', 'design_Implementation approach', 'design_File list', 'design_Data structures and interfaces'] 
+ children: []
+
+feature: task_Shared Knowledge 
+ parents: [] 
+ children: []
+
+feature: task_Anything UNCLEAR 
+ parents: ['prd_Programming Language', 'prd_Competitive Analysis', 'prd_Competitive Quadrant Chart', 'prd_Requirement Analysis', 'prd_Requirement Pool', 'prd_Anything UNCLEAR', 'design_Anything UNCLEAR'] 
+ children: []
+

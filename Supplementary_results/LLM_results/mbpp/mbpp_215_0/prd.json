@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function change_date_format to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.\nchange_date_format(\"2026-01-02\") == '02-01-2026'",
+  "Product Goals": [
+    "Ensure accurate date conversion",
+    "Provide a simple and intuitive interface",
+    "Optimize for performance with large datasets"
+  ],
+  "User Stories": [
+    "As a user, I want to convert dates easily from yyyy-mm-dd to dd-mm-yyyy format",
+    "As a user, I want to ensure that the conversion is accurate and reliable",
+    "As a user, I want to use the function in various applications without issues"
+  ],
+  "Competitive Analysis": [
+    "DateConverter.com: Simple interface but limited format options",
+    "DateFormatTool: Supports multiple formats but can be slow",
+    "ConvertMyDate: Fast conversion but lacks user-friendly design",
+    "DateChange: Offers batch processing but is complex to use",
+    "QuickDate: Fast and simple but limited to only two formats"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of date conversion tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Tool A\": [0.3, 0.6]\n    \"Tool B\": [0.45, 0.23]\n    \"Tool C\": [0.57, 0.69]\n    \"Tool D\": [0.78, 0.34]\n    \"Tool E\": [0.40, 0.34]\n    \"Our Target Tool\": [0.5, 0.6]",
+  "Requirement Analysis": "The function needs to accurately parse the input date string, validate the format, and then rearrange the components to the desired output format. Edge cases such as invalid dates should be handled gracefully.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the date conversion logic"
+    ],
+    [
+      "P1",
+      "Add error handling for invalid date formats"
+    ],
+    [
+      "P2",
+      "Create unit tests to ensure functionality"
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, documentation should be clear and concise for users to understand how to implement it.",
+  "Anything UNCLEAR": "Are there any specific edge cases or additional formats that need to be supported beyond the specified yyyy-mm-dd and dd-mm-yyyy?"
+}

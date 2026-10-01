@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "total_files_processed": 17,
+    "total_original_causes": 344,
+    "total_cleaned_causes": 344,
+    "total_removed_causes": 0,
+    "removal_rate_percentage": 0.0
+  },
+  "length_distribution_of_removed_causes": {},
+  "detailed_removals": []
+}

@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function common_in_nested_lists to find the common elements in given nested lists.\ncommon_in_nested_lists([[12, 18, 23, 25, 45], [7, 12, 18, 24, 28], [1, 5, 8, 12, 15, 16, 18]])==[18, 12]",
+  "Product Goals": [
+    "Create a reliable function for finding common elements",
+    "Ensure the function handles various nested list structures",
+    "Optimize performance for large datasets"
+  ],
+  "User Stories": [
+    "As a user, I want to find common elements in multiple lists easily",
+    "As a developer, I want to integrate this function into my application",
+    "As a data analyst, I want to analyze overlapping data points from different sources"
+  ],
+  "Competitive Analysis": [
+    "set intersection methods in Python: Efficient but not nested list specific",
+    "NumPy library: Offers array operations but may be overkill for simple lists",
+    "Pandas library: Great for data manipulation but adds complexity",
+    "Custom implementations on forums: Vary in quality and performance",
+    "Built-in Python functions: Limited to flat lists, not nested"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Functionality and Performance of Common Element Finders\"\n    x-axis \"Low Performance\" --> \"High Performance\"\n    y-axis \"Low Functionality\" --> \"High Functionality\"\n    quadrant-1 \"Expand features\"\n    quadrant-2 \"Optimize performance\"\n    quadrant-3 \"Re-evaluate approach\"\n    quadrant-4 \"Maintain current strategy\"\n    \"Set Intersection\": [0.8, 0.9]\n    \"NumPy\": [0.7, 0.8]\n    \"Pandas\": [0.6, 0.7]\n    \"Custom Implementations\": [0.4, 0.5]\n    \"Built-in Functions\": [0.5, 0.6]\n    \"Our Function\": [0.9, 0.9]",
+  "Requirement Analysis": "The function needs to efficiently identify common elements across multiple nested lists. It should handle varying lengths and structures of lists, ensuring that it returns unique common elements in a sorted manner.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the common_in_nested_lists function"
+    ],
+    [
+      "P1",
+      "Ensure the function handles empty lists gracefully"
+    ],
+    [
+      "P1",
+      "Optimize for performance with large nested lists"
+    ],
+    [
+      "P2",
+      "Return results in sorted order"
+    ],
+    [
+      "P2",
+      "Provide unit tests for various scenarios"
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, documentation should be clear and concise, with examples of usage.",
+  "Anything UNCLEAR": "Clarification on whether the function should return results in a specific order or format."
+}

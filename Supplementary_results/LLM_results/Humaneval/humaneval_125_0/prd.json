@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def split_words(txt):\n    '''\n    Given a string of words, return a list of words split on whitespace, if no whitespaces exists in the text you\n    should split on commas ',' if no commas exists you should return the number of lower-case letters with odd order in the\n    alphabet, ord('a') = 0, ord('b') = 1, ... ord('z') = 25\n    Examples\n    split_words(\"Hello world!\") ➞ [\"Hello\", \"world!\"]\n    split_words(\"Hello,world!\") ➞ [\"Hello\", \"world!\"]\n    split_words(\"abcdef\") == 3 \n    '''\n",
+  "Product Goals": [
+    "Create a versatile text processing function",
+    "Ensure accurate word splitting based on specified conditions",
+    "Provide clear and concise documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to split a string of words by whitespace to easily process them.",
+    "As a user, I want to handle cases where no whitespace exists and split by commas instead.",
+    "As a user, I want to know how many lower-case letters with odd order exist in a string if no splits can be made."
+  ],
+  "Competitive Analysis": [
+    "StringUtils: Offers various string manipulation functions but lacks specific splitting logic.",
+    "TextProcessor: Provides advanced text processing features but is overly complex for simple tasks.",
+    "WordSplitter: Focuses on splitting words but does not handle edge cases like odd-order letters.",
+    "RegexSplitter: Uses regular expressions for splitting but may be less intuitive for basic users.",
+    "SimpleText: A straightforward text manipulation tool but lacks flexibility in splitting criteria."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of text processing tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"StringUtils\": [0.4, 0.5]\n    \"TextProcessor\": [0.6, 0.7]\n    \"WordSplitter\": [0.3, 0.4]\n    \"RegexSplitter\": [0.5, 0.3]\n    \"SimpleText\": [0.2, 0.6]\n    \"Our Target Product\": [0.5, 0.5]",
+  "Requirement Analysis": "The function needs to handle multiple scenarios for splitting text. It should first check for whitespace, then commas, and finally count lower-case letters with odd positions in the alphabet. The implementation should be efficient and handle edge cases gracefully.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement word splitting by whitespace."
+    ],
+    [
+      "P0",
+      "Implement word splitting by commas if no whitespace is found."
+    ],
+    [
+      "P1",
+      "Count lower-case letters with odd order if no splits can be made."
+    ],
+    [
+      "P1",
+      "Ensure the function handles punctuation correctly."
+    ],
+    [
+      "P2",
+      "Provide comprehensive unit tests for all scenarios."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for users to understand how to use the function effectively.",
+  "Anything UNCLEAR": "Are there any specific performance requirements or constraints for the function, such as maximum input size or execution time?"
+}

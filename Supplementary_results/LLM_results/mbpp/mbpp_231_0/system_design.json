@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement the function largest_neg to iterate through the provided list, filter out negative numbers, and return the largest one. If there are no negative numbers or the list is empty, the function will return None. This approach ensures simplicity and efficiency without the need for external libraries.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def largest_neg(numbers: list[int]) -> int | None:\n    \"\"\"\n    Find the largest negative number in a list.\n\n    Parameters:\n    numbers (list[int]): A list of integers.\n\n    Returns:\n    int | None: The largest negative number if present, otherwise None.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: Call largest_neg([1, 2, 3, -4, -6])\n    Function-->>User: Return -6\n    User->>Function: Call largest_neg([])\n    Function-->>User: Return None\n    User->>Function: Call largest_neg([1, 2, 3])\n    Function-->>User: Return None",
+  "Anything UNCLEAR": "No specific edge cases or performance requirements have been mentioned, but it would be good to clarify if there are any constraints on the size of the input list."
+}

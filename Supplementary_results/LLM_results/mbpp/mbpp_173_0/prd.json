@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function max_sum_increasing_subseq to find the maximum sum of increasing subsequence from prefix until ith index and also including a given kth element which is after i, i.e., k > i .\nmax_sum_increasing_subseq([1, 101, 2, 3, 100, 4, 5 ], 7, 4, 6) == 11",
+  "Product Goals": [
+    "Create a function that efficiently calculates the maximum sum of increasing subsequences",
+    "Ensure the function handles edge cases and large inputs gracefully",
+    "Provide clear documentation and examples for users"
+  ],
+  "User Stories": [
+    "As a developer, I want to use the function to calculate maximum sums in my applications",
+    "As a user, I want to understand how to use the function with examples",
+    "As a data analyst, I want to analyze sequences of numbers for trends"
+  ],
+  "Competitive Analysis": [
+    "Dynamic Programming Libraries: Provide various algorithms but lack specific use cases",
+    "NumPy: Efficient for numerical operations but not tailored for subsequence problems",
+    "Pandas: Great for data manipulation but not focused on subsequence calculations",
+    "Custom Algorithms: Many exist but often lack optimization and documentation",
+    "Online Coding Platforms: Offer similar functions but may not be optimized for performance"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of campaigns\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Library A\": [0.3, 0.6]\n    \"Library B\": [0.45, 0.23]\n    \"Library C\": [0.57, 0.69]\n    \"Library D\": [0.78, 0.34]\n    \"Library E\": [0.40, 0.34]\n    \"Our Target Function\": [0.5, 0.6]",
+  "Requirement Analysis": "The function needs to efficiently compute the maximum sum of increasing subsequences while considering a specific element after a given index. It should handle various input sizes and return results quickly.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the max_sum_increasing_subseq function"
+    ],
+    [
+      "P1",
+      "Optimize the function for performance with large datasets"
+    ],
+    [
+      "P2",
+      "Provide unit tests to ensure function correctness"
+    ],
+    [
+      "P2",
+      "Document the function with examples and edge cases"
+    ],
+    [
+      "P3",
+      "Create a user-friendly interface for function input"
+    ]
+  ],
+  "UI Design draft": "The UI will consist of a simple input form where users can enter the sequence and indices. It will display the result clearly and provide examples of usage.",
+  "Anything UNCLEAR": "Clarification needed on the expected behavior of the function when the input list is empty or when indices are out of bounds."
+}

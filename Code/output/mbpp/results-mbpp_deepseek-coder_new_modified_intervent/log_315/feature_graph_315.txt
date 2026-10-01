@@ -1,0 +1,92 @@
+feature: prd_Language 
+ parents: ['prd_Language'] 
+ children: ['prd_Language', 'design_Anything UNCLEAR', 'task_Full API spec', 'task_Anything UNCLEAR']
+
+feature: prd_Programming Language 
+ parents: ['prd_Programming Language'] 
+ children: ['prd_Programming Language', 'task_Full API spec']
+
+feature: prd_Original Requirements 
+ parents: [] 
+ children: []
+
+feature: prd_Product Goals 
+ parents: [] 
+ children: []
+
+feature: prd_User Stories 
+ parents: [] 
+ children: []
+
+feature: prd_Competitive Analysis 
+ parents: [] 
+ children: []
+
+feature: prd_Competitive Quadrant Chart 
+ parents: [] 
+ children: ['design_Anything UNCLEAR', 'task_Full API spec', 'task_Anything UNCLEAR']
+
+feature: prd_Requirement Analysis 
+ parents: [] 
+ children: []
+
+feature: prd_Requirement Pool 
+ parents: [] 
+ children: []
+
+feature: prd_UI Design draft 
+ parents: [] 
+ children: []
+
+feature: prd_Anything UNCLEAR 
+ parents: ['prd_Anything UNCLEAR'] 
+ children: ['prd_Anything UNCLEAR', 'design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: design_Implementation approach 
+ parents: [] 
+ children: []
+
+feature: design_File list 
+ parents: [] 
+ children: []
+
+feature: design_Data structures and interfaces 
+ parents: [] 
+ children: []
+
+feature: design_Program call flow 
+ parents: [] 
+ children: ['task_Full API spec']
+
+feature: design_Anything UNCLEAR 
+ parents: ['prd_Language', 'prd_Competitive Quadrant Chart', 'prd_Anything UNCLEAR', 'design_Anything UNCLEAR'] 
+ children: ['design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: task_Required packages 
+ parents: [] 
+ children: []
+
+feature: task_Required Other language third-party packages 
+ parents: [] 
+ children: []
+
+feature: task_Logic Analysis 
+ parents: [] 
+ children: []
+
+feature: task_File list 
+ parents: [] 
+ children: []
+
+feature: task_Full API spec 
+ parents: ['prd_Language', 'prd_Programming Language', 'prd_Competitive Quadrant Chart', 'design_Program call flow'] 
+ children: []
+
+feature: task_Shared Knowledge 
+ parents: [] 
+ children: []
+
+feature: task_Anything UNCLEAR 
+ parents: ['prd_Language', 'prd_Competitive Quadrant Chart', 'prd_Anything UNCLEAR', 'design_Anything UNCLEAR'] 
+ children: []
+

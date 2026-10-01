@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a function `do_algebra` that takes two lists: one for operators and one for operands. The function will validate the inputs to ensure they meet the specified requirements, then construct and evaluate the algebraic expression while respecting the order of operations. We will use the `operator` module from Python's standard library to facilitate the evaluation of the operations.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def do_algebra(operator: list[str], operand: list[int]) -> int:\n    \"\"\" Given two lists operator, and operand. The first list has basic algebra operations, and \n    the second list is a list of integers. Use the two given lists to build the algebraic \n    expression and return the evaluation of this expression.\n\n    Parameters:\n    - operator: A list of strings representing algebraic operations ('+', '-', '*', '//', '**').\n    - operand: A list of integers (non-negative) to be used in the expression.\n\n    Returns:\n    - An integer result of the evaluated expression.\n\n    Raises:\n    - ValueError: If the input lists are invalid.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: do_algebra(['+', '*', '-'], [2, 3, 4, 5])\n    Function->>Function: Validate input lists\n    alt Valid input\n        Function->>Function: Construct expression\n        Function->>Function: Evaluate expression\n        Function-->>User: return result (9)\n    else Invalid input\n        Function-->>User: raise ValueError",
+  "Anything UNCLEAR": "Clarification needed on how to handle invalid inputs and whether to support additional operations in the future."
+}

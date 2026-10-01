@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function max_length to find the list of maximum length in a list of lists.\nmax_length([[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]])==(3, [13, 15, 17])",
+  "Product Goals": [
+    "Create a function that accurately identifies the longest list",
+    "Ensure the function handles edge cases gracefully",
+    "Provide clear documentation for the function"
+  ],
+  "User Stories": [
+    "As a developer, I want to use the max_length function to find the longest list in my data structure",
+    "As a user, I want to ensure that the function returns the correct index and list for varying input sizes",
+    "As a programmer, I want to integrate the max_length function into my existing codebase easily"
+  ],
+  "Competitive Analysis": [
+    "Python's built-in max function: Efficient but lacks specific handling for lists of lists",
+    "NumPy library: Provides array manipulation but may be overkill for simple list operations",
+    "Custom implementations on GitHub: Various solutions exist but lack standardization",
+    "List comprehension techniques: Can be used but may not be as readable",
+    "Other programming languages' similar functions: May offer different performance characteristics"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Function Performance and Usability\"\n    x-axis \"Low Performance\" --> \"High Performance\"\n    y-axis \"Low Usability\" --> \"High Usability\"\n    quadrant-1 \"High Performance, High Usability\"\n    quadrant-2 \"High Performance, Low Usability\"\n    quadrant-3 \"Low Performance, Low Usability\"\n    quadrant-4 \"Low Performance, High Usability\"\n    \"Built-in max\": [0.8, 0.9]\n    \"NumPy\": [0.9, 0.7]\n    \"Custom GitHub solutions\": [0.5, 0.5]\n    \"List comprehension\": [0.6, 0.6]\n    \"Other languages\": [0.4, 0.4]",
+  "Requirement Analysis": "The function needs to iterate through a list of lists, determine the length of each sublist, and return both the index of the longest sublist and the sublist itself. It should handle cases where multiple sublists have the same maximum length.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the max_length function to find the longest sublist."
+    ],
+    [
+      "P1",
+      "Handle edge cases such as empty lists or lists with equal lengths."
+    ],
+    [
+      "P2",
+      "Document the function with examples and usage instructions."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for ease of use.",
+  "Anything UNCLEAR": "Clarification on whether the function should return the first occurrence of the longest list in case of ties."
+}

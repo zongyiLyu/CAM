@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def skjkasdkd(lst):\n    \"\"\"You are given a list of integers.\n    You need to find the largest prime value and return the sum of its digits.\n\n    Examples:\n    For lst = [0,3,2,1,3,5,7,4,5,5,5,2,181,32,4,32,3,2,32,324,4,3] the output should be 10\n    For lst = [1,0,1,8,2,4597,2,1,3,40,1,2,1,2,4,2,5,1] the output should be 25\n    For lst = [1,3,1,32,5107,34,83278,109,163,23,2323,32,30,1,9,3] the output should be 13\n    For lst = [0,724,32,71,99,32,6,0,5,91,83,0,5,6] the output should be 11\n    For lst = [0,81,12,3,1,21] the output should be 3\n    For lst = [0,8,1,2,1,7] the output should be 7\n    \"\"\"",
+  "Product Goals": [
+    "Identify the largest prime number in a list",
+    "Calculate the sum of the digits of the largest prime",
+    "Ensure the function handles various edge cases"
+  ],
+  "User Stories": [
+    "As a user, I want to input a list of integers and receive the sum of the digits of the largest prime number.",
+    "As a user, I want the function to handle lists with no prime numbers gracefully.",
+    "As a user, I want to see examples of how the function works with different inputs."
+  ],
+  "Competitive Analysis": [
+    "PrimeFinder: Simple prime detection but lacks digit sum functionality.",
+    "SumOfDigits: Calculates digit sums but does not identify primes.",
+    "PrimeSum: Combines both functionalities but has a complex interface.",
+    "NumAnalyzer: Offers extensive number analysis but is not focused on primes.",
+    "QuickPrime: Fast prime checking but does not return digit sums."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of prime number tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"PrimeFinder\": [0.3, 0.6]\n    \"SumOfDigits\": [0.45, 0.23]\n    \"PrimeSum\": [0.57, 0.69]\n    \"NumAnalyzer\": [0.78, 0.34]\n    \"QuickPrime\": [0.40, 0.34]",
+  "Requirement Analysis": "The function needs to efficiently identify the largest prime number from a list of integers and compute the sum of its digits. It should handle edge cases such as lists without primes and ensure performance with larger lists.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement prime checking logic."
+    ],
+    [
+      "P0",
+      "Create a digit sum function."
+    ],
+    [
+      "P1",
+      "Handle edge cases for lists without primes."
+    ],
+    [
+      "P1",
+      "Optimize for performance with large lists."
+    ],
+    [
+      "P2",
+      "Provide clear documentation and examples."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for user guidance.",
+  "Anything UNCLEAR": "Clarification on how to handle negative numbers or non-integer values in the list would be helpful."
+}

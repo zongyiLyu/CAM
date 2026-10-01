@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement the function `remove_Occ` to remove the first and last occurrences of a specified character from a given string. The function will utilize Python's built-in string methods to efficiently locate and manipulate the string. We will also handle edge cases where the character is not found in the string, returning the original string in such cases. The function will be documented with examples for user guidance.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def remove_Occ(s: str, char: str) -> str:\n    \"\"\"\n    Removes the first and last occurrence of a specified character from a string.\n\n    Parameters:\n    s (str): The input string from which characters will be removed.\n    char (str): The character to be removed from the string.\n\n    Returns:\n    str: The modified string with the first and last occurrences of the character removed.\n\n    Raises:\n    ValueError: If the character is not found in the string.\n\n    Examples:\n    >>> remove_Occ(\"hello\", \"l\")\n    'heo'\n    >>> remove_Occ(\"hello\", \"x\")\n    ValueError: Character not found in the string.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: call remove_Occ(s, char)\n    Function->>Function: check if char in s\n    alt char found\n        Function->>Function: remove first occurrence of char\n        Function->>Function: remove last occurrence of char\n        Function-->>User: return modified string\n    else char not found\n        Function-->>User: raise ValueError\n    end",
+  "Anything UNCLEAR": "There is no unclear aspect in the requirements. The function will focus on removing only the first and last occurrences of the specified character."
+}

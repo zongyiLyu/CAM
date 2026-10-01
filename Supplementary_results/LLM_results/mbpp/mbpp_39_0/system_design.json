@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a simple function to calculate the surface area of a sphere using the formula 4 * π * r^2. The function will handle various input types, including integers and floats, and will validate inputs to ensure they are numeric and non-negative. We will use the math library for the value of π.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def surfacearea_sphere(radius: float) -> float:\n    \"\"\"\n    Calculate the surface area of a sphere given its radius.\n\n    Parameters:\n    radius (float): The radius of the sphere. Must be a non-negative number.\n\n    Returns:\n    float: The surface area of the sphere.\n\n    Raises:\n    ValueError: If the radius is negative or not a number.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: Call surfacearea_sphere(radius)\n    Function->>Function: Validate radius\n    alt Valid radius\n        Function->>Function: Calculate surface area using 4 * π * r^2\n        Function-->>User: Return surface area\n    else Invalid radius\n        Function-->>User: Raise ValueError\n    end",
+  "Anything UNCLEAR": "Are there any specific edge cases or input validations that should be prioritized in the function implementation?"
+}

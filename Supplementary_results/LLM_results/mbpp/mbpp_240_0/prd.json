@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a python function sumofFactors to find the sum of even factors of a number.\nsumofFactors(18) == 26",
+  "Product Goals": [
+    "Create a function that accurately calculates the sum of even factors",
+    "Ensure the function is efficient and handles edge cases",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to input a number and receive the sum of its even factors",
+    "As a user, I want the function to handle both small and large numbers efficiently",
+    "As a user, I want to see examples of how to use the function in the documentation"
+  ],
+  "Competitive Analysis": [
+    "FactorSumPro: Provides a similar function but lacks user-friendly documentation",
+    "MathHelper: Offers various mathematical functions but is not optimized for performance",
+    "EvenFactorSum: Focuses solely on even factors but has a complex interface",
+    "FactorFinder: Good performance but limited to integer inputs only",
+    "SumOfFactorsApp: User-friendly but does not specifically focus on even factors"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of factor sum applications\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"FactorSumPro\": [0.4, 0.5]\n    \"MathHelper\": [0.3, 0.4]\n    \"EvenFactorSum\": [0.5, 0.6]\n    \"FactorFinder\": [0.6, 0.3]\n    \"SumOfFactorsApp\": [0.7, 0.5]",
+  "Requirement Analysis": "The function should efficiently calculate the sum of even factors for a given integer. It should handle edge cases such as negative numbers and zero. The output should be an integer representing the sum.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the sumofFactors function to calculate even factors."
+    ],
+    [
+      "P1",
+      "Ensure the function handles edge cases like negative numbers."
+    ],
+    [
+      "P1",
+      "Provide unit tests to validate the function's accuracy."
+    ],
+    [
+      "P2",
+      "Create documentation for the function usage."
+    ],
+    [
+      "P2",
+      "Optimize the function for performance with large inputs."
+    ]
+  ],
+  "UI Design draft": "The function will be a simple command-line interface where users can input a number and receive the output directly. The style will be minimalistic, focusing on clarity and ease of use.",
+  "Anything UNCLEAR": "Are there any specific performance benchmarks or constraints that need to be considered for the function?"
+}

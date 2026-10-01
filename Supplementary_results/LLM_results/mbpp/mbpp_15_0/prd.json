@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a python function check to check if a given number is one less than twice its reverse.\ncheck(70) == False",
+  "Product Goals": [
+    "Create a function that accurately checks the condition",
+    "Ensure the function handles edge cases",
+    "Provide clear documentation for the function"
+  ],
+  "User Stories": [
+    "As a user, I want to check if a number meets the specific condition so that I can validate my inputs.",
+    "As a developer, I want to integrate this function into my application for number validation.",
+    "As a user, I want to receive clear feedback on whether my number meets the criteria."
+  ],
+  "Competitive Analysis": [
+    "Number Validator A: Basic functionality but lacks edge case handling.",
+    "Number Checker B: Offers a similar feature but is not optimized for performance.",
+    "Math Validator C: Comprehensive but overly complex for simple checks.",
+    "Quick Check D: Fast but limited to specific ranges.",
+    "Simple Validator E: User-friendly but lacks detailed documentation."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of number validation tools\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Validator A\": [0.3, 0.6]\n    \"Validator B\": [0.45, 0.23]\n    \"Validator C\": [0.57, 0.69]\n    \"Validator D\": [0.78, 0.34]\n    \"Validator E\": [0.40, 0.34]\n    \"Our Target Product\": [0.5, 0.6]",
+  "Requirement Analysis": "The function needs to reverse the digits of the input number, check if the original number is one less than twice the reversed number, and return a boolean result. It should also handle edge cases such as negative numbers and single-digit inputs.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the check function to validate the condition."
+    ],
+    [
+      "P1",
+      "Add error handling for invalid inputs."
+    ],
+    [
+      "P2",
+      "Write unit tests to ensure the function works as expected."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for users to understand how to use the function.",
+  "Anything UNCLEAR": "Are there any specific edge cases or input types that should be prioritized in the function's implementation?"
+}

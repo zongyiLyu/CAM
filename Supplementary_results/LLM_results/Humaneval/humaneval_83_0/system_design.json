@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a function that calculates the count of n-digit integers that either start or end with the digit 1. The function will handle edge cases, such as when n is 1, and will be optimized for performance to handle larger values of n. We will use basic arithmetic to derive the counts without relying on complex libraries, ensuring efficiency.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def starts_one_ends(n: int) -> int:\n    \"\"\"\n    Given a positive integer n, return the count of the numbers of n-digit\n    positive integers that start or end with 1.\n\n    Parameters:\n    n (int): A positive integer representing the number of digits.\n\n    Returns:\n    int: The count of n-digit integers that start or end with 1.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: starts_one_ends(n)\n    Function->>Function: Validate n (check if n > 0)\n    Function->>Function: Calculate count of n-digit integers starting with 1\n    Function->>Function: Calculate count of n-digit integers ending with 1\n    Function->>Function: Combine counts (subtract overlap if n > 1)\n    Function-->>User: Return total count",
+  "Anything UNCLEAR": "No aspects of the project are unclear. The requirements are well-defined."
+}

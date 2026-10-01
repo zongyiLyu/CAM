@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function similar_elements to find the shared elements from the given two lists.\nsimilar_elements((3, 4, 5, 6),(5, 7, 4, 10)) == (4, 5)",
+  "Product Goals": [
+    "Create an engaging user experience",
+    "Improve accessibility, be responsive",
+    "More beautiful UI"
+  ],
+  "User Stories": [
+    "As a player, I want to be able to choose difficulty levels",
+    "As a player, I want to see my score after each game",
+    "As a player, I want to get restart button when I lose",
+    "As a player, I want to see beautiful UI that make me feel good",
+    "As a player, I want to play game via mobile phone"
+  ],
+  "Competitive Analysis": [
+    "2048 Game A: Simple interface, lacks responsive features",
+    "play2048.co: Beautiful and responsive UI with my best score shown",
+    "2048game.com: Responsive UI with my best score shown, but many ads"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of campaigns\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"Campaign A\": [0.3, 0.6]\n    \"Campaign B\": [0.45, 0.23]\n    \"Campaign C\": [0.57, 0.69]\n    \"Campaign D\": [0.78, 0.34]\n    \"Campaign E\": [0.40, 0.34]\n    \"Campaign F\": [0.35, 0.78]\n    \"Our Target Product\": [0.5, 0.6]",
+  "Requirement Analysis": "The function needs to take two lists (or tuples) as input and return a tuple containing the elements that are present in both lists. The output should maintain the order of the elements as they appear in the first list.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "The main code should efficiently find shared elements."
+    ],
+    [
+      "P1",
+      "The function should handle different data types gracefully."
+    ],
+    [
+      "P2",
+      "The function should return results in a tuple format."
+    ]
+  ],
+  "UI Design draft": "The UI will feature a simple input area for users to enter their lists, a button to execute the function, and a display area for the results. The layout will be clean and responsive, ensuring a good experience on both desktop and mobile devices.",
+  "Anything UNCLEAR": "The requirements are clear, but it would be helpful to know if there are any specific performance benchmarks or constraints on the size of the input lists."
+}

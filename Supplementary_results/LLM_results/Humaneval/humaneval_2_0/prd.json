@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1).\n\n    Return the decimal part of the number.\n    >>> truncate_number(3.5)\n    0.5\n    \"\"\"\n",
+  "Product Goals": [
+    "Ensure accurate decimal extraction from floating point numbers",
+    "Provide clear and concise documentation for users",
+    "Implement robust testing to validate functionality"
+  ],
+  "User Stories": [
+    "As a developer, I want to extract the decimal part of a number for calculations",
+    "As a user, I want to understand how the function works through examples",
+    "As a tester, I want to ensure the function handles edge cases correctly"
+  ],
+  "Competitive Analysis": [
+    "Python's built-in math library: Provides basic mathematical functions but lacks specific decimal extraction",
+    "NumPy: Offers advanced numerical operations but may be overkill for simple tasks",
+    "Decimal module: Handles decimal arithmetic but requires more complex implementation",
+    "Custom libraries: Various user-defined functions available online, but quality varies",
+    "Online calculators: Can perform similar tasks but lack programmability"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Functionality and Usability of Decimal Extraction\"\n    x-axis \"Low Usability\" --> \"High Usability\"\n    y-axis \"Low Functionality\" --> \"High Functionality\"\n    quadrant-1 \"Needs Improvement\"\n    quadrant-2 \"Good Potential\"\n    quadrant-3 \"Well-Established\"\n    quadrant-4 \"Highly Functional\"\n    \"Built-in Math Library\": [0.4, 0.5]\n    \"NumPy\": [0.6, 0.7]\n    \"Decimal Module\": [0.5, 0.6]\n    \"Custom Libraries\": [0.3, 0.4]\n    \"Online Calculators\": [0.2, 0.3]\n    \"Our Function\": [0.7, 0.8]",
+  "Requirement Analysis": "The function should accurately return the decimal part of a positive floating point number. It must handle edge cases such as very small numbers and ensure that the input is always a positive float.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the core functionality to extract the decimal part."
+    ],
+    [
+      "P1",
+      "Add unit tests to validate the function's behavior."
+    ],
+    [
+      "P1",
+      "Document the function with examples and edge cases."
+    ],
+    [
+      "P2",
+      "Optimize performance for large input values."
+    ],
+    [
+      "P2",
+      "Handle invalid inputs gracefully."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided for user guidance.",
+  "Anything UNCLEAR": "Clarification needed on whether the function should handle negative numbers or non-float inputs."
+}

@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a python function find_remainder to find the product of the array multiplication modulo n.\nfind_remainder([ 100, 10, 5, 25, 35, 14 ],6,11) ==9",
+  "Product Goals": [
+    "Create a reliable function for mathematical operations",
+    "Ensure the function handles edge cases",
+    "Provide clear documentation for users"
+  ],
+  "User Stories": [
+    "As a user, I want to calculate the product of an array modulo a number easily",
+    "As a user, I want to ensure the function works with different array sizes",
+    "As a user, I want to receive accurate results for various inputs"
+  ],
+  "Competitive Analysis": [
+    "NumPy: Offers extensive mathematical functions but may be overkill for simple tasks",
+    "Math library: Provides basic mathematical operations but lacks array handling",
+    "Pandas: Great for data manipulation but not focused on simple mathematical functions",
+    "Custom libraries: Various custom implementations exist but lack standardization",
+    "Built-in functions: Python's built-in functions can handle basic operations but not specifically for arrays"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of mathematical libraries\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"NumPy\": [0.8, 0.9]\n    \"Math library\": [0.5, 0.4]\n    \"Pandas\": [0.6, 0.7]\n    \"Custom libraries\": [0.3, 0.5]\n    \"Built-in functions\": [0.7, 0.6]\n    \"Our Target Product\": [0.4, 0.5]",
+  "Requirement Analysis": "The function needs to compute the product of an array and return the result modulo a given number. It should handle various input scenarios, including empty arrays and large numbers.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the find_remainder function"
+    ],
+    [
+      "P1",
+      "Handle edge cases such as empty arrays"
+    ],
+    [
+      "P1",
+      "Ensure performance with large input sizes"
+    ],
+    [
+      "P2",
+      "Provide unit tests for the function"
+    ],
+    [
+      "P2",
+      "Document the function usage and parameters"
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation will be provided for users to understand how to use the function.",
+  "Anything UNCLEAR": "Clarification on whether the function should handle negative numbers or non-integer inputs would be helpful."
+}

@@ -1,0 +1,40 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function angle_complex to get the angle of a complex number.\nangle_complex(0,1j)==1.5707963267948966",
+  "Product Goals": [
+    "Create a reliable mathematical utility",
+    "Ensure accurate calculations for complex numbers",
+    "Provide a simple and clear interface for users"
+  ],
+  "User Stories": [
+    "As a user, I want to calculate the angle of a complex number easily",
+    "As a user, I want to verify the angle calculation with known values",
+    "As a user, I want to use this function in my mathematical applications"
+  ],
+  "Competitive Analysis": [
+    "NumPy: Comprehensive library for numerical calculations, includes complex number support",
+    "SymPy: Symbolic mathematics library that can handle complex numbers and their properties",
+    "Math.js: JavaScript library for mathematical operations, supports complex numbers",
+    "Complex.js: A library specifically for complex number operations in JavaScript",
+    "C++ Standard Library: Provides complex number support but requires more boilerplate code"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Utility and accuracy of mathematical libraries\"\n    x-axis \"Low Utility\" --> \"High Utility\"\n    y-axis \"Low Accuracy\" --> \"High Accuracy\"\n    quadrant-1 \"Expand features\"\n    quadrant-2 \"Improve accuracy\"\n    quadrant-3 \"Re-evaluate utility\"\n    quadrant-4 \"Maintain current status\"\n    \"NumPy\": [0.9, 0.95]\n    \"SymPy\": [0.85, 0.9]\n    \"Math.js\": [0.7, 0.75]\n    \"Complex.js\": [0.6, 0.65]\n    \"C++ Standard Library\": [0.5, 0.5]",
+  "Requirement Analysis": "The function should take two parameters representing the real and imaginary parts of a complex number and return the angle in radians. The angle can be calculated using the atan2 function, which handles the quadrant correctly.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the angle_complex function using atan2."
+    ],
+    [
+      "P1",
+      "Ensure the function handles edge cases, such as zero values."
+    ],
+    [
+      "P2",
+      "Provide documentation and examples for users."
+    ]
+  ],
+  "UI Design draft": "The function will be a simple utility without a UI, but documentation should be clear and concise, with examples of usage.",
+  "Anything UNCLEAR": "Are there any specific edge cases or additional features that should be considered for the angle_complex function?"
+}

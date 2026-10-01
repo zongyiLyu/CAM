@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "def count_nums(arr):\n    \"\"\" Write a function count_nums which takes an array of integers and returns\n    the number of elements which has a sum of digits > 0.\n    If a number is negative, then its first signed digit will be negative:\n    e.g. -123 has signed digits -1, 2, and 3.\n    >>> count_nums([]) == 0\n    >>> count_nums([-1, 11, -11]) == 1\n    >>> count_nums([1, 1, 2]) == 3\n    \"\"\"\n",
+  "Product Goals": [
+    "Create a function that accurately counts numbers based on digit sum",
+    "Ensure the function handles negative numbers correctly",
+    "Provide clear documentation and examples for users"
+  ],
+  "User Stories": [
+    "As a developer, I want to use the count_nums function to filter numbers based on their digit sums",
+    "As a user, I want to understand how the function works through examples",
+    "As a user, I want to ensure that negative numbers are processed correctly"
+  ],
+  "Competitive Analysis": [
+    "NumCount Pro: Offers similar functionality but lacks detailed documentation",
+    "DigitSum Analyzer: Provides a user-friendly interface but is not optimized for performance",
+    "SumDigits Tool: Fast execution but limited to positive integers only",
+    "CountIt: Comprehensive features but overly complex for simple tasks",
+    "SimpleCounter: Easy to use but does not handle negative numbers"
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Functionality and Usability of Counting Tools\"\n    x-axis \"Low Usability\" --> \"High Usability\"\n    y-axis \"Low Functionality\" --> \"High Functionality\"\n    quadrant-1 \"Expand features\"\n    quadrant-2 \"Improve usability\"\n    quadrant-3 \"Re-evaluate approach\"\n    quadrant-4 \"Maintain current strategy\"\n    \"NumCount Pro\": [0.4, 0.7]\n    \"DigitSum Analyzer\": [0.6, 0.5]\n    \"SumDigits Tool\": [0.3, 0.8]\n    \"CountIt\": [0.5, 0.4]\n    \"SimpleCounter\": [0.7, 0.6]",
+  "Requirement Analysis": "The function must accurately count integers based on the sum of their digits, including handling negative integers correctly. The implementation should be efficient and include comprehensive test cases to validate functionality.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the count_nums function to count integers based on digit sums."
+    ],
+    [
+      "P1",
+      "Ensure the function handles negative integers correctly."
+    ],
+    [
+      "P1",
+      "Provide clear documentation and examples for the function."
+    ],
+    [
+      "P2",
+      "Optimize the function for performance with large arrays."
+    ],
+    [
+      "P2",
+      "Include unit tests to validate the function's behavior."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided in a markdown format for easy understanding.",
+  "Anything UNCLEAR": "Are there any specific performance benchmarks or constraints that need to be considered for the count_nums function?"
+}

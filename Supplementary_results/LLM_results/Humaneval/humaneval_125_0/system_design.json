@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a function named `split_words` that processes a given string according to specified rules. The function will first check for whitespace to split the string into words. If no whitespace is found, it will check for commas as the next delimiter. If neither is present, the function will count the number of lowercase letters that have odd positions in the alphabet (i.e., 'b', 'd', 'f', ..., 'z'). This approach ensures that we handle various input scenarios effectively and provides a clear and concise output.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def split_words(txt: str) -> Union[List[str], int]:\n    '''\n    Given a string of words, return a list of words split on whitespace, if no whitespaces exists in the text you\n    should split on commas ',' if no commas exists you should return the number of lower-case letters with odd order in the\n    alphabet, ord('a') = 0, ord('b') = 1, ... ord('z') = 25\n    '''\n    - Input: txt (str) - a string containing words and possibly punctuation.\n    - Output: List[str] if words are found, otherwise int representing the count of lower-case letters with odd order.",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: split_words(\"Hello world!\")\n    Function-->>User: [\"Hello\", \"world!\"]\n    User->>Function: split_words(\"Hello,world!\")\n    Function-->>User: [\"Hello\", \"world!\"]\n    User->>Function: split_words(\"abcdef\")\n    Function-->>User: 3\n    User->>Function: split_words(\"No commas or spaces!\")\n    Function-->>User: 0",
+  "Anything UNCLEAR": "No specific performance requirements or constraints have been mentioned for the function, such as maximum input size or execution time."
+}

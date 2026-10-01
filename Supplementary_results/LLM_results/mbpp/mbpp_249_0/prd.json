@@ -1,0 +1,48 @@
+{
+  "Language": "en_us",
+  "Programming Language": "Python",
+  "Original Requirements": "Write a function combinations_list to find all possible combinations of the elements of a given list.\ncombinations_list(['orange', 'red', 'green', 'blue'])==[[], ['orange'], ['red'], ['red', 'orange'], ['green'], ['green', 'orange'], ['green', 'red'], ['green', 'red', 'orange'], ['blue'], ['blue', 'orange'], ['blue', 'red'], ['blue', 'red', 'orange'], ['blue', 'green'], ['blue', 'green', 'orange'], ['blue', 'green', 'red'], ['blue', 'green', 'red', 'orange']",
+  "Product Goals": [
+    "Create a comprehensive function for generating combinations",
+    "Ensure the function handles various input sizes efficiently",
+    "Provide clear documentation and examples for users"
+  ],
+  "User Stories": [
+    "As a developer, I want to generate combinations of a list to analyze different subsets.",
+    "As a data analyst, I want to use this function to explore potential groupings of data.",
+    "As a student, I want to understand how combinations work through practical examples."
+  ],
+  "Competitive Analysis": [
+    "itertools.combinations: Built-in Python function, but lacks user-friendly examples.",
+    "numpy: Offers combination functionalities but is complex for beginners.",
+    "pandas: Provides group functionalities but not specifically for combinations.",
+    "combinatorics library: Focused on combinations but not widely known.",
+    "custom implementations on GitHub: Various user-created solutions with varying quality."
+  ],
+  "Competitive Quadrant Chart": "quadrantChart\n    title \"Reach and engagement of combination functions\"\n    x-axis \"Low Reach\" --> \"High Reach\"\n    y-axis \"Low Engagement\" --> \"High Engagement\"\n    quadrant-1 \"We should expand\"\n    quadrant-2 \"Need to promote\"\n    quadrant-3 \"Re-evaluate\"\n    quadrant-4 \"May be improved\"\n    \"itertools\": [0.8, 0.9]\n    \"numpy\": [0.6, 0.5]\n    \"pandas\": [0.7, 0.4]\n    \"combinatorics\": [0.3, 0.6]\n    \"custom implementations\": [0.4, 0.7]\n    \"Our Target Function\": [0.5, 0.8]",
+  "Requirement Analysis": "The function should generate all possible combinations of the elements in a given list, including the empty set. It should be efficient and handle lists of varying lengths. The output should be a list of lists, where each inner list represents a unique combination.",
+  "Requirement Pool": [
+    [
+      "P0",
+      "Implement the combinations_list function to generate combinations."
+    ],
+    [
+      "P1",
+      "Ensure the function can handle edge cases, such as empty lists."
+    ],
+    [
+      "P1",
+      "Provide unit tests to validate the functionality."
+    ],
+    [
+      "P2",
+      "Document the function with examples and usage instructions."
+    ],
+    [
+      "P2",
+      "Optimize the function for performance with larger lists."
+    ]
+  ],
+  "UI Design draft": "The function will be a backend utility, so no UI elements are required. However, clear documentation and examples will be provided in a markdown format for easy understanding.",
+  "Anything UNCLEAR": "Are there any specific performance benchmarks or constraints that need to be considered for the function?"
+}

@@ -1,0 +1,92 @@
+feature: prd_Language 
+ parents: ['prd_Language'] 
+ children: ['prd_Language', 'design_Anything UNCLEAR', 'task_Full API spec', 'task_Anything UNCLEAR']
+
+feature: prd_Programming Language 
+ parents: [] 
+ children: []
+
+feature: prd_Original Requirements 
+ parents: [] 
+ children: ['task_Full API spec']
+
+feature: prd_Product Goals 
+ parents: [] 
+ children: ['design_Anything UNCLEAR']
+
+feature: prd_User Stories 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: prd_Competitive Analysis 
+ parents: [] 
+ children: []
+
+feature: prd_Competitive Quadrant Chart 
+ parents: [] 
+ children: ['design_Anything UNCLEAR']
+
+feature: prd_Requirement Analysis 
+ parents: [] 
+ children: ['task_Required packages']
+
+feature: prd_Requirement Pool 
+ parents: [] 
+ children: ['design_Anything UNCLEAR', 'task_Required packages', 'task_Anything UNCLEAR']
+
+feature: prd_UI Design draft 
+ parents: [] 
+ children: ['design_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: prd_Anything UNCLEAR 
+ parents: ['prd_Anything UNCLEAR'] 
+ children: ['prd_Anything UNCLEAR', 'task_Anything UNCLEAR']
+
+feature: design_Implementation approach 
+ parents: [] 
+ children: ['task_Anything UNCLEAR']
+
+feature: design_File list 
+ parents: [] 
+ children: ['task_Full API spec', 'task_Anything UNCLEAR']
+
+feature: design_Data structures and interfaces 
+ parents: [] 
+ children: []
+
+feature: design_Program call flow 
+ parents: [] 
+ children: []
+
+feature: design_Anything UNCLEAR 
+ parents: ['prd_Language', 'prd_Product Goals', 'prd_Competitive Quadrant Chart', 'prd_Requirement Pool', 'prd_UI Design draft', 'design_Anything UNCLEAR'] 
+ children: ['design_Anything UNCLEAR']
+
+feature: task_Required packages 
+ parents: ['prd_Requirement Analysis', 'prd_Requirement Pool'] 
+ children: []
+
+feature: task_Required Other language third-party packages 
+ parents: [] 
+ children: []
+
+feature: task_Logic Analysis 
+ parents: [] 
+ children: []
+
+feature: task_File list 
+ parents: [] 
+ children: []
+
+feature: task_Full API spec 
+ parents: ['prd_Language', 'prd_Original Requirements', 'design_File list'] 
+ children: []
+
+feature: task_Shared Knowledge 
+ parents: [] 
+ children: []
+
+feature: task_Anything UNCLEAR 
+ parents: ['prd_Language', 'prd_User Stories', 'prd_Requirement Pool', 'prd_UI Design draft', 'prd_Anything UNCLEAR', 'design_Implementation approach', 'design_File list'] 
+ children: []
+

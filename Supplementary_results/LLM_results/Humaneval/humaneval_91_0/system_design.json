@@ -1,0 +1,9 @@
+{
+  "Implementation approach": "We will implement a simple function that splits the input string into sentences based on the specified delimiters ('.', '?', '!'). Then, we will check each sentence to see if it starts with the word 'I' (case-sensitive). We will use Python's built-in string methods for this task, ensuring that the function is efficient and straightforward.",
+  "File list": [
+    "main.py"
+  ],
+  "Data structures and interfaces": "def is_bored(S: str) -> int:\n    \"\"\"\n    Count the number of sentences starting with 'I'.\n    \n    Parameters:\n    S (str): The input string containing sentences.\n    \n    Returns:\n    int: The count of sentences that start with 'I'.\n    \"\"\"",
+  "Program call flow": "sequenceDiagram\n    participant User\n    participant Function\n    User->>Function: is_bored(\"The sky is blue. I love this weather!\")\n    Function->>Function: Split string into sentences\n    Function->>Function: Count sentences starting with 'I'\n    Function-->>User: Return count (1)",
+  "Anything UNCLEAR": "Clarification needed on whether the function should ignore case sensitivity when checking for 'I' at the start of sentences."
+}

@@ -1,0 +1,20 @@
+{
+  "Required packages": [
+    "No required packages"
+  ],
+  "Required Other language third-party packages": [
+    "sympy"
+  ],
+  "Logic Analysis": [
+    [
+      "main.py",
+      "Contains the newman_prime function that computes the nth Newman–Shanks–Williams prime number using the sympy library for prime generation and checking."
+    ]
+  ],
+  "File list": [
+    "main.py"
+  ],
+  "Full API spec": "",
+  "Shared Knowledge": "",
+  "Anything UNCLEAR": "Clarification needed on the expected range of n values to optimize the function accordingly."
+}
